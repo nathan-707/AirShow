@@ -21,7 +21,7 @@ def Xform "Root"
     {
         quatf xformOp:orient = (4.3711385e-8, 0, 1, 0)
         float3 xformOp:scale = (0.017017778, 0.017017778, 0.017017778)
-        float3 xformOp:translate = (0, -10.200212, 0)
+        float3 xformOp:translate = (-0.0000012218952, -17.312529, -1.3161085)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -39,6 +39,28 @@ def Xform "Root"
         def Material "DefaultMaterial"
         {
             prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+
+    def Cube "Cube_1" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube_1/DefaultMaterial>
+        double size = 0.2
+
+        def Material "DefaultMaterial"
+        {
+            prepend token outputs:surface.connect = </Root/Cube_1/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
 
             def Shader "DefaultSurfaceShader"
             {

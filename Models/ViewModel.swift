@@ -63,7 +63,6 @@ class theViewModel: ObservableObject {
             self.immersionStyle = .progressive
         }
     }
-    
 }
 
 

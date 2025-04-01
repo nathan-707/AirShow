@@ -11,4 +11,4 @@ import SwiftUI
 
 var startingDistance: Float = -2500 // starting distance used when viewing the aircraft.
 let secondsInBetweenSpawn: Double = 5 // time between spawnning another aircraft in custom show.
-let maxNumberOfAircraftAtOneTimeInChaotic = 15
+let maxNumberOfAircraftAtOneTimeInChaotic = 16

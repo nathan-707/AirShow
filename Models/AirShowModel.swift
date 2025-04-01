@@ -102,7 +102,6 @@ class theAirShowModel: ObservableObject {
     
     func custom_spawnPlaneWithAnimation(aircraft: Aircraft, customAnimation: CustomAnimation = CustomAnimation(animationEntity: placeHolderEntity, speed: 0.0, typeOfAnimation: .all)){
         
-        
         var formation = true
         
         var customAnimation = customAnimation // capture there customAnimation parameter.
@@ -130,6 +129,21 @@ class theAirShowModel: ObservableObject {
                 customAnimation = helicopter_animations.randomElement()!
                 customAnimation.speed = slowDownHelicopterPercent(input: customAnimation.speed) + classicShowSpeedBoost.returnBoost(animationType: aircraft.animationType)
                 formation = decideFormationOrNot()
+            }
+            
+            if aircraft.animationType == .agile_fast_plane || aircraft.animationType == .agile_slow_plane {
+                formation = decideFormationOrNot()
+                
+                if formation {
+                    customAnimation = animationsThatWorkForAnyAircraft.randomElement()!
+                    
+                    if aircraft.animationType == .agile_fast_plane {
+                        
+                        customAnimation.speed += customAnimation.speed + 0.3
+                        
+                    }
+                    customAnimation.speed = slowDownAgileAnimationPercent(input: customAnimation.speed) + classicShowSpeedBoost.returnBoost(animationType: aircraft.animationType)
+                }
             }
         }
         
@@ -356,9 +370,6 @@ class theAirShowModel: ObservableObject {
                 addEmitterToAircraft(emitter: aircraftProperties.emitter, low: true)
             }
         }
-        
-        
-        
         
         if let aircraftLandingGear = findChildNamed("landingGear", in: aircraft)  {
             aircraftLandingGear.removeFromParent()

@@ -23,7 +23,7 @@ def Xform "Root"
             {
                 token birthDirection = "Normal"
                 token birthLocation = "Surface"
-                int64 burstCount = 1000
+                int64 burstCount = 50
                 int64 burstCountVariation = 50
                 float3 emissionDirection = (0, 1, 0)
                 double emissionDuration = 0

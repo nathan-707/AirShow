@@ -4,8 +4,7 @@
       [
         "0093FDE8-2C6E-40DA-BFDB-5910BA6E31F2",
         "Root",
-        "spit",
-        "Materials"
+        "spitfire"
       ],
       {
         "isExpanded" : true,
@@ -32,7 +31,8 @@
       [
         "0093FDE8-2C6E-40DA-BFDB-5910BA6E31F2",
         "Root",
-        "spitfire"
+        "spit",
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -72,6 +72,16 @@
         "04738D92-5149-421D-8C52-F5EC902640BB",
         "Root",
         "Warthog",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "04738D92-5149-421D-8C52-F5EC902640BB",
+        "Root",
+        "Warthog",
         "object00"
       ],
       {
@@ -85,49 +95,11 @@
       {
         "isExpanded" : true,
         "isLocked" : false
-      },
-      [
-        "04738D92-5149-421D-8C52-F5EC902640BB",
-        "Root",
-        "Warthog",
-        "Materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
       }
     ]
   },
   "06E7C373-0C58-4E8B-8AF4-BD3FADE98803" : {
     "objectMetadataList" : [
-      [
-        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
-        "Root",
-        "Apache",
-        "grpApache"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
-        "Root",
-        "apache",
-        "grpApache"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
       [
         "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
         "Root",
@@ -143,7 +115,7 @@
         "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
         "Root",
         "apache",
-        "Materials"
+        "grpApache"
       ],
       {
         "isExpanded" : true,
@@ -168,15 +140,21 @@
       {
         "isExpanded" : true,
         "isLocked" : false
-      }
-    ]
-  },
-  "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16" : {
-    "objectMetadataList" : [
+      },
       [
-        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
         "Root",
-        "blackbird",
+        "Apache",
+        "grpApache"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root",
+        "apache",
         "Materials"
       ],
       {
@@ -184,13 +162,17 @@
         "isLocked" : false
       },
       [
-        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
         "Root"
       ],
       {
         "isExpanded" : true,
         "isLocked" : false
-      },
+      }
+    ]
+  },
+  "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16" : {
+    "objectMetadataList" : [
       [
         "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
         "Root",
@@ -205,6 +187,24 @@
         "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
         "Root",
         "blackbird"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "Root",
+        "blackbird",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -225,8 +225,7 @@
       },
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
-        "Root",
-        "GridMaterial"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -234,7 +233,8 @@
       },
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
-        "Root"
+        "Root",
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -247,6 +247,15 @@
       [
         "0AD6B86B-7780-447C-9472-1AD4212A03CB",
         "Root",
+        "wall_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root",
         "roofMaterial"
       ],
       {
@@ -256,7 +265,7 @@
       [
         "0AD6B86B-7780-447C-9472-1AD4212A03CB",
         "Root",
-        "wall_1"
+        "floorMaterial"
       ],
       {
         "isExpanded" : true,
@@ -274,16 +283,8 @@
       [
         "0AD6B86B-7780-447C-9472-1AD4212A03CB",
         "Root",
-        "wallUnlit"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
-        "Root",
-        "floorMaterial"
+        "Cube",
+        "unlitMaterial"
       ],
       {
         "isExpanded" : true,
@@ -300,8 +301,7 @@
       [
         "0AD6B86B-7780-447C-9472-1AD4212A03CB",
         "Root",
-        "Cube",
-        "unlitMaterial"
+        "wallUnlit"
       ],
       {
         "isExpanded" : true,
@@ -361,6 +361,14 @@
     "objectMetadataList" : [
       [
         "10320AD6-375E-4E96-9015-46E9A77C2DBC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "10320AD6-375E-4E96-9015-46E9A77C2DBC",
         "Root",
         "Eurofighter_Typhoon"
       ],
@@ -370,14 +378,6 @@
         "selectedAudioFilePrim" : {
           "string" : "\/Root\/jetPlaneBeginning1_mp3"
         }
-      },
-      [
-        "10320AD6-375E-4E96-9015-46E9A77C2DBC",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
       }
     ]
   },
@@ -385,8 +385,7 @@
     "objectMetadataList" : [
       [
         "114646EB-64BA-4A54-B389-4FCE3AD448A4",
-        "Root",
-        "blackbird"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -394,7 +393,8 @@
       },
       [
         "114646EB-64BA-4A54-B389-4FCE3AD448A4",
-        "Root"
+        "Root",
+        "blackbird"
       ],
       {
         "isExpanded" : true,
@@ -438,15 +438,6 @@
       [
         "171DDE76-B305-46C7-A493-71EB3BBA8402",
         "Root",
-        "AnyConv_com__KA25A_L"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "171DDE76-B305-46C7-A493-71EB3BBA8402",
-        "Root",
         "AnyConv_com__KA25A_L",
         "Materials"
       ],
@@ -457,8 +448,7 @@
       [
         "171DDE76-B305-46C7-A493-71EB3BBA8402",
         "Root",
-        "AnyConv_com__KA25A_L",
-        "Geom"
+        "AnyConv_com__KA25A_L"
       ],
       {
         "isExpanded" : true,
@@ -467,6 +457,16 @@
       [
         "171DDE76-B305-46C7-A493-71EB3BBA8402",
         "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "171DDE76-B305-46C7-A493-71EB3BBA8402",
+        "Root",
+        "AnyConv_com__KA25A_L",
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -514,7 +514,8 @@
       [
         "1E6BB6FE-AB7E-4729-A557-805A7E0D84B4",
         "Root",
-        "AnyConv_com__F16FIN_L"
+        "AnyConv_com__F16FIN_L",
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -523,8 +524,7 @@
       [
         "1E6BB6FE-AB7E-4729-A557-805A7E0D84B4",
         "Root",
-        "AnyConv_com__F16FIN_L",
-        "Materials"
+        "AnyConv_com__F16FIN_L"
       ],
       {
         "isExpanded" : true,
@@ -553,7 +553,7 @@
         "Meshes",
         "Sketchfab_model",
         "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
-        "Object_3"
+        "Object_2"
       ],
       {
         "isExpanded" : true,
@@ -565,16 +565,8 @@
         "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
         "Meshes",
         "Sketchfab_model",
-        "F_14_Gear_Down_obj_cleaner_materialmerger_gles"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
-        "Root",
-        "f14Tomcat"
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
+        "Object_3"
       ],
       {
         "isExpanded" : true,
@@ -593,7 +585,7 @@
       [
         "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
         "Root",
-        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "f14Tomcat",
         "Meshes",
         "Sketchfab_model",
         "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
@@ -606,11 +598,30 @@
       [
         "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
         "Root",
-        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "f14Tomcat",
         "Meshes",
         "Sketchfab_model",
-        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
-        "Object_2"
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "f14Tomcat"
       ],
       {
         "isExpanded" : true,
@@ -620,19 +631,6 @@
         "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
         "Root",
         "f14Tomcat",
-        "Meshes",
-        "Sketchfab_model",
-        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
-        "Object_2"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
-        "Root",
-        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
         "Meshes",
         "Sketchfab_model"
       ],
@@ -652,18 +650,6 @@
         "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
         "Root",
         "f14Tomcat",
-        "Meshes",
-        "Sketchfab_model",
-        "F_14_Gear_Down_obj_cleaner_materialmerger_gles"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
-        "Root",
-        "f14Tomcat",
         "Meshes"
       ],
       {
@@ -673,9 +659,23 @@
       [
         "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
         "Root",
-        "f14Tomcat",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
         "Meshes",
-        "Sketchfab_model"
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
+        "Object_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "Meshes",
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles"
       ],
       {
         "isExpanded" : true,
@@ -711,8 +711,7 @@
     "objectMetadataList" : [
       [
         "27D26CC6-5A9E-4B9F-B891-479A0E8B4C75",
-        "Root",
-        "b1_lancer"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -720,7 +719,8 @@
       },
       [
         "27D26CC6-5A9E-4B9F-B891-479A0E8B4C75",
-        "Root"
+        "Root",
+        "b1_lancer"
       ],
       {
         "isExpanded" : true,
@@ -733,6 +733,16 @@
       [
         "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448",
         "Root",
+        "Sukhoi_1",
+        "Sukhoi"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448",
+        "Root",
         "Sukhoi_1"
       ],
       {
@@ -742,16 +752,6 @@
       [
         "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448",
         "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448",
-        "Root",
-        "Sukhoi_1",
-        "Sukhoi"
       ],
       {
         "isExpanded" : true,
@@ -805,16 +805,9 @@
       [
         "3AD18073-C014-4294-9966-E5C70EA1D4C4",
         "Root",
-        "Material"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
-        "Root",
-        "ac130"
+        "ac130",
+        "Geom",
+        "AC130_Untitled_001_AC130"
       ],
       {
         "isExpanded" : true,
@@ -825,17 +818,6 @@
         "Root",
         "ac130",
         "Materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
-        "Root",
-        "ac130",
-        "Geom",
-        "AC130_Untitled_001_AC130"
       ],
       {
         "isExpanded" : true,
@@ -854,6 +836,24 @@
         "Root",
         "ac130",
         "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root",
+        "ac130"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root",
+        "Material"
       ],
       {
         "isExpanded" : true,
@@ -888,7 +888,8 @@
       },
       [
         "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
-        "Root"
+        "Root",
+        "B2"
       ],
       {
         "isExpanded" : true,
@@ -898,6 +899,16 @@
         "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
         "Root",
         "C0818053",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "B2",
         "Materials"
       ],
       {
@@ -907,7 +918,8 @@
       [
         "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
         "Root",
-        "B2"
+        "B2",
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -926,19 +938,7 @@
       },
       [
         "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
-        "Root",
-        "B2",
-        "Geom"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
-        "Root",
-        "B2",
-        "Materials"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -948,7 +948,7 @@
         "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
         "Root",
         "C0818053",
-        "Geom"
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -984,8 +984,7 @@
     "objectMetadataList" : [
       [
         "435856A4-281D-478E-8F15-0307A6F3734C",
-        "Root",
-        "F_104_Starfighter"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -993,7 +992,8 @@
       },
       [
         "435856A4-281D-478E-8F15-0307A6F3734C",
-        "Root"
+        "Root",
+        "F_104_Starfighter"
       ],
       {
         "isExpanded" : true,
@@ -1019,6 +1019,16 @@
         "4747139D-B0E2-49CC-B8CF-FF2B19325777",
         "Root",
         "F35_Lightning2_1",
+        "F35_Lightning2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
+        "Root",
+        "F35_Lightning2_1",
         "F35_Lightning2",
         "Meshes",
         "Sketchfab_model",
@@ -1034,9 +1044,7 @@
         "Root",
         "F35_Lightning2_1",
         "F35_Lightning2",
-        "Meshes",
-        "Sketchfab_model",
-        "root"
+        "Meshes"
       ],
       {
         "isExpanded" : true,
@@ -1058,18 +1066,10 @@
         "4747139D-B0E2-49CC-B8CF-FF2B19325777",
         "Root",
         "F35_Lightning2_1",
-        "F35_Lightning2"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
-        "Root",
-        "F35_Lightning2_1",
         "F35_Lightning2",
-        "Meshes"
+        "Meshes",
+        "Sketchfab_model",
+        "root"
       ],
       {
         "isExpanded" : true,
@@ -1101,18 +1101,7 @@
     "objectMetadataList" : [
       [
         "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
-        "Root",
-        "SR_71_Blackbird_1",
-        "DrawCall_0"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
-        "Root",
-        "SR_71_Blackbird_1"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -1130,7 +1119,18 @@
       },
       [
         "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
-        "Root"
+        "Root",
+        "SR_71_Blackbird_1",
+        "DrawCall_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
+        "Root",
+        "SR_71_Blackbird_1"
       ],
       {
         "isExpanded" : true,
@@ -1154,15 +1154,7 @@
     "objectMetadataList" : [
       [
         "51A6A4C3-4EAD-48DE-B883-5577934E2573",
-        "Root",
-        "BlackHawk",
-        "Meshes",
-        "Sketchfab_model",
-        "uh_60_blackhawk_helicopter_fbx",
-        "RootNode",
-        "Null",
-        "Window_R2",
-        "Window_R2_Material__25_0"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -1173,7 +1165,8 @@
         "Root",
         "BlackHawk",
         "Meshes",
-        "Sketchfab_model"
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx"
       ],
       {
         "isExpanded" : true,
@@ -1188,8 +1181,26 @@
         "uh_60_blackhawk_helicopter_fbx",
         "RootNode",
         "Null",
-        "Window_R2",
-        "Window_R2_Material__26_0"
+        "Window_R2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk"
       ],
       {
         "isExpanded" : true,
@@ -1227,7 +1238,8 @@
         "uh_60_blackhawk_helicopter_fbx",
         "RootNode",
         "Null",
-        "Window_R2"
+        "Window_R2",
+        "Window_R2_Material__26_0"
       ],
       {
         "isExpanded" : true,
@@ -1242,26 +1254,6 @@
         "uh_60_blackhawk_helicopter_fbx",
         "RootNode",
         "Null"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
-        "Root",
-        "BlackHawk",
-        "Meshes",
-        "Sketchfab_model",
-        "uh_60_blackhawk_helicopter_fbx"
       ],
       {
         "isExpanded" : true,
@@ -1285,7 +1277,14 @@
       [
         "51A6A4C3-4EAD-48DE-B883-5577934E2573",
         "Root",
-        "BlackHawk"
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null",
+        "Window_R2",
+        "Window_R2_Material__25_0"
       ],
       {
         "isExpanded" : true,
@@ -1295,7 +1294,8 @@
         "51A6A4C3-4EAD-48DE-B883-5577934E2573",
         "Root",
         "BlackHawk",
-        "Materials"
+        "Meshes",
+        "Sketchfab_model"
       ],
       {
         "isExpanded" : true,
@@ -1307,12 +1307,54 @@
     "objectMetadataList" : [
       [
         "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model",
+        "f92ae565242244b48ba518048c8072da_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
         "Root",
         "Mi_24",
         "Meshes",
         "Sketchfab_model",
         "f92ae565242244b48ba518048c8072da_fbx",
-        "RootNode"
+        "RootNode",
+        "helicopterbody_low"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model"
       ],
       {
         "isExpanded" : true,
@@ -1349,62 +1391,20 @@
       [
         "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
         "Root",
-        "Mi_24"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
-        "Root",
-        "Mi_24",
-        "Meshes",
-        "Sketchfab_model",
-        "f92ae565242244b48ba518048c8072da_fbx"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
-        "Root",
-        "Mi_24",
-        "Meshes"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
-        "Root",
-        "Mi_24",
-        "Meshes",
-        "Sketchfab_model"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
-        "Root",
         "Mi_24",
         "Meshes",
         "Sketchfab_model",
         "f92ae565242244b48ba518048c8072da_fbx",
-        "RootNode",
-        "helicopterbody_low"
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24"
       ],
       {
         "isExpanded" : true,
@@ -1429,7 +1429,9 @@
       [
         "52780A33-9F00-4034-AF90-65DFC5176350",
         "Root",
-        "Mig_23_UB"
+        "Mig_23_UB",
+        "Meshes",
+        "Sketchfab_model"
       ],
       {
         "isExpanded" : true,
@@ -1449,10 +1451,17 @@
       },
       [
         "52780A33-9F00-4034-AF90-65DFC5176350",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "52780A33-9F00-4034-AF90-65DFC5176350",
         "Root",
         "Mig_23_UB",
-        "Meshes",
-        "Sketchfab_model"
+        "Meshes"
       ],
       {
         "isExpanded" : true,
@@ -1474,16 +1483,7 @@
       [
         "52780A33-9F00-4034-AF90-65DFC5176350",
         "Root",
-        "Mig_23_UB",
-        "Meshes"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "52780A33-9F00-4034-AF90-65DFC5176350",
-        "Root"
+        "Mig_23_UB"
       ],
       {
         "isExpanded" : true,
@@ -1493,6 +1493,42 @@
   },
   "5490DAAC-FAD0-4ED9-B8B4-843925750456" : {
     "objectMetadataList" : [
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root",
+        "MiG_29_1",
+        "MiG_29___Fighter_Jet___Free"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "MiG_29"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root",
+        "MiG_29",
+        "MiG_29___Fighter_Jet___Free"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
       [
         "5490DAAC-FAD0-4ED9-B8B4-843925750456",
         "Root",
@@ -1506,43 +1542,7 @@
       },
       [
         "5490DAAC-FAD0-4ED9-B8B4-843925750456",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
         "Root",
-        "MiG_29_1",
-        "MiG_29___Fighter_Jet___Free"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
-        "Root",
-        "MiG_29",
-        "MiG_29___Fighter_Jet___Free"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
-        "Root",
-        "MiG_29"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
         "MiG_29"
       ],
       {
@@ -1553,23 +1553,6 @@
   },
   "59470FE8-B758-4826-996D-5D93D93B45DA" : {
     "objectMetadataList" : [
-      [
-        "59470FE8-B758-4826-996D-5D93D93B45DA",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "59470FE8-B758-4826-996D-5D93D93B45DA",
-        "Root",
-        "landingGear"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
       [
         "59470FE8-B758-4826-996D-5D93D93B45DA",
         "Root",
@@ -1583,9 +1566,26 @@
       },
       [
         "59470FE8-B758-4826-996D-5D93D93B45DA",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "59470FE8-B758-4826-996D-5D93D93B45DA",
         "Root",
         "landingGear",
         "su47_landingOn_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "59470FE8-B758-4826-996D-5D93D93B45DA",
+        "Root",
+        "landingGear"
       ],
       {
         "isExpanded" : true,
@@ -1618,7 +1618,14 @@
     "objectMetadataList" : [
       [
         "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
-        "Root"
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
+        "RootNode",
+        "Part_1_1_low",
+        "Part_1_1_low_Material_001_0"
       ],
       {
         "isExpanded" : true,
@@ -1630,7 +1637,10 @@
         "F_104_Starfighter",
         "Meshes",
         "Sketchfab_model",
-        "f5b8bc8993cd46e2a7958d355c6d9163_fbx"
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
+        "RootNode",
+        "Plane_333",
+        "Plane_333_Material_0"
       ],
       {
         "isExpanded" : true,
@@ -1658,8 +1668,47 @@
         "Sketchfab_model",
         "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
         "RootNode",
-        "Part_1_1_low",
-        "Part_1_1_low_Material_001_0"
+        "Plane_333"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -1687,55 +1736,6 @@
       {
         "isExpanded" : true,
         "isLocked" : false
-      },
-      [
-        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
-        "Root",
-        "F_104_Starfighter"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
-        "Root",
-        "F_104_Starfighter",
-        "Meshes",
-        "Sketchfab_model",
-        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
-        "RootNode",
-        "Plane_333"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
-        "Root",
-        "F_104_Starfighter",
-        "Meshes",
-        "Sketchfab_model",
-        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
-        "RootNode",
-        "Plane_333",
-        "Plane_333_Material_0"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
-        "Root",
-        "F_104_Starfighter",
-        "Meshes",
-        "Sketchfab_model"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
       }
     ]
   },
@@ -1755,7 +1755,8 @@
     "objectMetadataList" : [
       [
         "61E914E1-5F20-4935-8ED0-31B8E926E6A2",
-        "_11805_airplane_v2_L2"
+        "_11805_airplane_v2_L2",
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -1763,8 +1764,7 @@
       },
       [
         "61E914E1-5F20-4935-8ED0-31B8E926E6A2",
-        "_11805_airplane_v2_L2",
-        "Geom"
+        "_11805_airplane_v2_L2"
       ],
       {
         "isExpanded" : true,
@@ -1797,14 +1797,6 @@
     "objectMetadataList" : [
       [
         "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
         "Root",
         "SR_71_Blackbird_1",
         "Materials"
@@ -1825,6 +1817,14 @@
       },
       [
         "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
         "Root",
         "blackBird"
       ],
@@ -1838,7 +1838,9 @@
     "objectMetadataList" : [
       [
         "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
-        "Root"
+        "Root",
+        "j20",
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -1857,6 +1859,15 @@
       [
         "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
         "Root",
+        "j20"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
+        "Root",
         "j20",
         "Geom",
         "Basis"
@@ -1867,18 +1878,7 @@
       },
       [
         "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
-        "Root",
-        "j20",
-        "Geom"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
-        "Root",
-        "j20"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -1958,6 +1958,65 @@
     "objectMetadataList" : [
       [
         "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "Warthog"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "C0815116",
+        "object05"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "Warthog",
+        "object05"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "C0815116",
+        "object00"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "warthog",
+        "object00"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "Warthog",
+        "object00"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
         "Root"
       ],
       {
@@ -1967,67 +2026,8 @@
       [
         "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
         "Root",
-        "C0815116",
-        "object05"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
-        "Root",
-        "warthog",
-        "object00"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
-        "Root",
-        "Warthog",
-        "object05"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
-        "Root",
-        "C0815116",
-        "object00"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
-        "Root",
-        "Warthog",
-        "object00"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
-        "Root",
         "warthog",
         "object05"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
-        "Root",
-        "Warthog"
       ],
       {
         "isExpanded" : true,
@@ -2050,7 +2050,9 @@
       [
         "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
         "Root",
-        "MiG_35"
+        "MiG_35",
+        "MiG_35",
+        "Meshes"
       ],
       {
         "isExpanded" : true,
@@ -2059,9 +2061,7 @@
       [
         "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
         "Root",
-        "MiG_35",
-        "MiG_35",
-        "Materials"
+        "MiG_35"
       ],
       {
         "isExpanded" : true,
@@ -2080,9 +2080,9 @@
       [
         "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
         "Root",
+        "MiG_35_1",
         "MiG_35",
-        "MiG_35",
-        "Meshes"
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -2099,7 +2099,7 @@
       [
         "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
         "Root",
-        "MiG_35_1",
+        "MiG_35",
         "MiG_35",
         "Materials"
       ],
@@ -2164,8 +2164,7 @@
       [
         "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA",
         "Root",
-        "me_1099",
-        "Materials"
+        "me_109"
       ],
       {
         "isExpanded" : true,
@@ -2182,7 +2181,7 @@
       [
         "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA",
         "Root",
-        "me_109",
+        "me_1099",
         "Materials"
       ],
       {
@@ -2192,7 +2191,8 @@
       [
         "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA",
         "Root",
-        "me_109"
+        "me_109",
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -2228,14 +2228,6 @@
     "objectMetadataList" : [
       [
         "88D77690-A240-480E-9860-50E4C2B7E5C4",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "88D77690-A240-480E-9860-50E4C2B7E5C4",
         "Root",
         "HARR"
       ],
@@ -2245,10 +2237,7 @@
       },
       [
         "88D77690-A240-480E-9860-50E4C2B7E5C4",
-        "Root",
-        "HARR",
-        "Geom",
-        "HARRdLta_HARRtail"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2273,6 +2262,17 @@
       {
         "isExpanded" : true,
         "isLocked" : false
+      },
+      [
+        "88D77690-A240-480E-9860-50E4C2B7E5C4",
+        "Root",
+        "HARR",
+        "Geom",
+        "HARRdLta_HARRtail"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
       }
     ]
   },
@@ -2281,7 +2281,8 @@
       [
         "8FBC6A10-B056-4214-BA4B-FF487796DF90",
         "Root",
-        "f_15"
+        "f_15c",
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -2300,15 +2301,6 @@
       },
       [
         "8FBC6A10-B056-4214-BA4B-FF487796DF90",
-        "Root",
-        "landingGear"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
         "Root"
       ],
       {
@@ -2318,18 +2310,7 @@
       [
         "8FBC6A10-B056-4214-BA4B-FF487796DF90",
         "Root",
-        "f_15",
-        "Materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
-        "Root",
-        "landingGear",
-        "su47_landingOn_6"
+        "landingGear"
       ],
       {
         "isExpanded" : true,
@@ -2349,7 +2330,7 @@
       [
         "8FBC6A10-B056-4214-BA4B-FF487796DF90",
         "Root",
-        "f_15c",
+        "f_15",
         "Geom"
       ],
       {
@@ -2359,8 +2340,17 @@
       [
         "8FBC6A10-B056-4214-BA4B-FF487796DF90",
         "Root",
-        "f_15",
-        "Geom"
+        "f_15"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15c",
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -2380,7 +2370,17 @@
       [
         "8FBC6A10-B056-4214-BA4B-FF487796DF90",
         "Root",
-        "f_15c",
+        "landingGear",
+        "su47_landingOn_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15",
         "Materials"
       ],
       {
@@ -2393,9 +2393,7 @@
     "objectMetadataList" : [
       [
         "9114CCFB-1E66-4068-9FFA-585F44E7588F",
-        "Root",
-        "stealthBomber",
-        "Materials"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2412,7 +2410,9 @@
       },
       [
         "9114CCFB-1E66-4068-9FFA-585F44E7588F",
-        "Root"
+        "Root",
+        "stealthBomber",
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -2425,16 +2425,7 @@
       [
         "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
         "Root",
-        "PBR"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
-        "Root",
-        "PBR_Fighter_Jet_V2S_Animated",
+        "PBR",
         "Materials"
       ],
       {
@@ -2454,8 +2445,17 @@
       [
         "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
         "Root",
-        "PBR",
+        "PBR_Fighter_Jet_V2S_Animated",
         "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
+        "Root",
+        "PBR"
       ],
       {
         "isExpanded" : true,
@@ -2490,6 +2490,24 @@
         "938D623D-AC0A-440B-960B-516293101419",
         "Root",
         "F_22_Raptor",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root",
+        "F_22_Raptor",
         "Meshes",
         "Sketchfab_model",
         "root",
@@ -2512,27 +2530,9 @@
         "938D623D-AC0A-440B-960B-516293101419",
         "Root",
         "F_22_Raptor",
-        "Meshes"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "938D623D-AC0A-440B-960B-516293101419",
-        "Root",
-        "F_22_Raptor",
         "Meshes",
         "Sketchfab_model",
         "root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "938D623D-AC0A-440B-960B-516293101419",
-        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2547,7 +2547,9 @@
         "Root",
         "BlackHawk",
         "Meshes",
-        "Sketchfab_model"
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode"
       ],
       {
         "isExpanded" : true,
@@ -2557,7 +2559,19 @@
         "93C5CE00-B415-4AD8-A189-808E9803D57D",
         "Root",
         "BlackHawk",
-        "Materials"
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx"
       ],
       {
         "isExpanded" : true,
@@ -2576,42 +2590,12 @@
         "93C5CE00-B415-4AD8-A189-808E9803D57D",
         "Root",
         "BlackHawk",
-        "Meshes"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "93C5CE00-B415-4AD8-A189-808E9803D57D",
-        "Root",
-        "BlackHawk",
         "Meshes",
         "Sketchfab_model",
         "uh_60_blackhawk_helicopter_fbx",
         "RootNode",
         "Null",
         "pilot"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "93C5CE00-B415-4AD8-A189-808E9803D57D",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "93C5CE00-B415-4AD8-A189-808E9803D57D",
-        "Root",
-        "BlackHawk",
-        "Meshes",
-        "Sketchfab_model",
-        "uh_60_blackhawk_helicopter_fbx"
       ],
       {
         "isExpanded" : true,
@@ -2635,10 +2619,26 @@
         "93C5CE00-B415-4AD8-A189-808E9803D57D",
         "Root",
         "BlackHawk",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
         "Meshes",
-        "Sketchfab_model",
-        "uh_60_blackhawk_helicopter_fbx",
-        "RootNode"
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2695,7 +2695,8 @@
     "objectMetadataList" : [
       [
         "9E8AA3BD-A26B-45FF-81CB-B30B2A8EF033",
-        "Root"
+        "Root",
+        "Su_27_Flanker"
       ],
       {
         "isExpanded" : true,
@@ -2703,8 +2704,7 @@
       },
       [
         "9E8AA3BD-A26B-45FF-81CB-B30B2A8EF033",
-        "Root",
-        "Su_27_Flanker"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2764,14 +2764,6 @@
     "objectMetadataList" : [
       [
         "AAFAAFC6-238B-4322-A6FC-B1E717D816E2",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AAFAAFC6-238B-4322-A6FC-B1E717D816E2",
         "Root",
         "_11805_airplane_v2_L2"
       ],
@@ -2784,6 +2776,14 @@
         "Root",
         "_11805_airplane_v2_L2",
         "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AAFAAFC6-238B-4322-A6FC-B1E717D816E2",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2808,8 +2808,26 @@
       [
         "AC9F15ED-D320-4633-8104-1A8B650F0E89",
         "Root",
+        "me_109",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
+        "Root",
         "Me109",
         "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2832,37 +2850,11 @@
       {
         "isExpanded" : true,
         "isLocked" : false
-      },
-      [
-        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
-        "Root",
-        "me_109",
-        "Materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
       }
     ]
   },
   "AD0861EE-B7C4-40B3-B961-08C92481219E" : {
     "objectMetadataList" : [
-      [
-        "AD0861EE-B7C4-40B3-B961-08C92481219E",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
       [
         "AD0861EE-B7C4-40B3-B961-08C92481219E",
         "Root",
@@ -2876,7 +2868,16 @@
         "AD0861EE-B7C4-40B3-B961-08C92481219E",
         "Root",
         "HARR",
-        "Geom"
+        "Geom",
+        "HARRdLta_HARRtail"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AD0861EE-B7C4-40B3-B961-08C92481219E",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -2886,8 +2887,7 @@
         "AD0861EE-B7C4-40B3-B961-08C92481219E",
         "Root",
         "HARR",
-        "Geom",
-        "HARRdLta_HARRtail"
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -2948,25 +2948,6 @@
       [
         "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
         "Root",
-        "apache"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
-        "Root",
-        "apache",
-        "Materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
-        "Root",
         "apache",
         "grpApache"
       ],
@@ -2987,6 +2968,25 @@
       },
       [
         "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
+        "Root",
+        "apache",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
+        "Root",
+        "apache"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
         "Root"
       ],
       {
@@ -2997,6 +2997,14 @@
   },
   "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8" : {
     "objectMetadataList" : [
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
       [
         "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
         "Root",
@@ -3010,7 +3018,28 @@
       [
         "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
         "Root",
+        "P_51_Mustang",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
         "Mustang",
+        "Geom",
+        "_material_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
+        "P_51_Mustang",
         "Geom",
         "_material_1"
       ],
@@ -3031,36 +3060,7 @@
         "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
         "Root",
         "P_51_Mustang",
-        "Geom",
-        "_material_1"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
-        "Root",
-        "P_51_Mustang",
         "Materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
-        "Root",
-        "P_51_Mustang",
-        "Geom"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
-        "Root"
       ],
       {
         "isExpanded" : true,
@@ -3131,6 +3131,16 @@
         "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
         "Root",
         "landingGear",
+        "su47_landingOn_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
+        "Root",
+        "landingGear",
         "typn_landingOn_7"
       ],
       {
@@ -3148,20 +3158,7 @@
       },
       [
         "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
-        "Root",
-        "landingGear",
-        "su47_landingOn_6"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
-        "Root",
-        "landingGear",
-        "typn_landingOn_7",
-        "Object_16"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -3180,7 +3177,10 @@
       },
       [
         "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
-        "Root"
+        "Root",
+        "landingGear",
+        "typn_landingOn_7",
+        "Object_16"
       ],
       {
         "isExpanded" : true,
@@ -3192,7 +3192,8 @@
     "objectMetadataList" : [
       [
         "D70F4F2C-7549-4AEC-996B-E32197609462",
-        "Root"
+        "Root",
+        "Warthog"
       ],
       {
         "isExpanded" : true,
@@ -3200,8 +3201,7 @@
       },
       [
         "D70F4F2C-7549-4AEC-996B-E32197609462",
-        "Root",
-        "Warthog"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -3213,7 +3213,9 @@
     "objectMetadataList" : [
       [
         "D802923A-E09A-4EE1-A985-B4FE4528BA30",
-        "Root"
+        "Root",
+        "AC130",
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -3223,7 +3225,7 @@
         "D802923A-E09A-4EE1-A985-B4FE4528BA30",
         "Root",
         "AC130",
-        "Geom"
+        "Materials"
       ],
       {
         "isExpanded" : true,
@@ -3240,9 +3242,7 @@
       },
       [
         "D802923A-E09A-4EE1-A985-B4FE4528BA30",
-        "Root",
-        "AC130",
-        "Materials"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -3334,8 +3334,7 @@
     "objectMetadataList" : [
       [
         "ED76A921-925A-4241-B2AE-19B27AA858D8",
-        "Root",
-        "F16_Fixed"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -3343,7 +3342,8 @@
       },
       [
         "ED76A921-925A-4241-B2AE-19B27AA858D8",
-        "Root"
+        "Root",
+        "F16_Fixed"
       ],
       {
         "isExpanded" : true,
@@ -3391,7 +3391,8 @@
     "objectMetadataList" : [
       [
         "F372F54A-671D-4D64-94A9-7B2BA031E0EB",
-        "Root"
+        "Root",
+        "MiG_17"
       ],
       {
         "isExpanded" : true,
@@ -3399,8 +3400,7 @@
       },
       [
         "F372F54A-671D-4D64-94A9-7B2BA031E0EB",
-        "Root",
-        "MiG_17"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -3412,8 +3412,7 @@
     "objectMetadataList" : [
       [
         "F45F57F1-A981-4F7D-BD36-7C695D052703",
-        "f18",
-        "Geom"
+        "f18"
       ],
       {
         "isExpanded" : true,
@@ -3421,7 +3420,8 @@
       },
       [
         "F45F57F1-A981-4F7D-BD36-7C695D052703",
-        "f18"
+        "f18",
+        "Geom"
       ],
       {
         "isExpanded" : true,
@@ -3483,50 +3483,7 @@
     "objectMetadataList" : [
       [
         "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "MIG_17_Fighter_Jet",
-        "Meshes",
-        "Sketchfab_model",
-        "root",
-        "GLTF_SceneRootNode",
-        "Empty_001_57"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
         "MiG_17",
-        "Meshes"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "Root",
-        "MiG_17",
-        "Meshes",
-        "Sketchfab_model"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "MiG_17",
-        "Meshes",
-        "Sketchfab_model"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "MIG_17_Fighter_Jet",
         "Meshes"
       ],
       {
@@ -3539,6 +3496,51 @@
         "Meshes",
         "Sketchfab_model",
         "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes",
+        "Sketchfab_model"
       ],
       {
         "isExpanded" : true,
@@ -3558,13 +3560,8 @@
       },
       [
         "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "Root",
-        "MiG_17",
-        "Meshes",
-        "Sketchfab_model",
-        "root",
-        "GLTF_SceneRootNode",
-        "Empty_001_57"
+        "MIG_17_Fighter_Jet",
+        "Meshes"
       ],
       {
         "isExpanded" : true,
@@ -3576,6 +3573,19 @@
         "Meshes",
         "Sketchfab_model",
         "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Empty_001_57"
       ],
       {
         "isExpanded" : true,
@@ -3612,58 +3622,6 @@
         "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
         "Root",
         "MiG_17",
-        "Meshes",
-        "Sketchfab_model",
-        "root",
-        "GLTF_SceneRootNode"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "MIG_17_Fighter_Jet",
-        "Meshes",
-        "Sketchfab_model"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "MiG_17"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "Root",
-        "MiG_17"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "MIG_17_Fighter_Jet",
-        "Meshes",
-        "Sketchfab_model",
-        "root",
-        "GLTF_SceneRootNode"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
-        "Root",
-        "MiG_17",
         "Meshes"
       ],
       {
@@ -3672,12 +3630,43 @@
       },
       [
         "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
         "MiG_17",
         "Meshes",
         "Sketchfab_model",
         "root",
         "GLTF_SceneRootNode",
         "Empty_001_57"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Empty_001_57"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17"
       ],
       {
         "isExpanded" : true,
@@ -3692,6 +3681,17 @@
         "GLTF_SceneRootNode",
         "Empty_001_57",
         "Group"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model"
       ],
       {
         "isExpanded" : true,

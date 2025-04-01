@@ -1,0 +1,3731 @@
+{
+  "0093FDE8-2C6E-40DA-BFDB-5910BA6E31F2" : {
+    "objectMetadataList" : [
+      [
+        "0093FDE8-2C6E-40DA-BFDB-5910BA6E31F2",
+        "Root",
+        "spit",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0093FDE8-2C6E-40DA-BFDB-5910BA6E31F2",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0093FDE8-2C6E-40DA-BFDB-5910BA6E31F2",
+        "Root",
+        "spitfire",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0093FDE8-2C6E-40DA-BFDB-5910BA6E31F2",
+        "Root",
+        "spitfire"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "01A389CE-549D-43D4-8082-422095AD9977" : {
+    "objectMetadataList" : [
+      [
+        "01A389CE-549D-43D4-8082-422095AD9977",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01A389CE-549D-43D4-8082-422095AD9977",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "03E02005-EFA6-48D6-8A76-05B2822A74E9" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "04738D92-5149-421D-8C52-F5EC902640BB" : {
+    "objectMetadataList" : [
+      [
+        "04738D92-5149-421D-8C52-F5EC902640BB",
+        "Root",
+        "Warthog",
+        "object00"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "04738D92-5149-421D-8C52-F5EC902640BB",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "04738D92-5149-421D-8C52-F5EC902640BB",
+        "Root",
+        "Warthog",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "06E7C373-0C58-4E8B-8AF4-BD3FADE98803" : {
+    "objectMetadataList" : [
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root",
+        "Apache",
+        "grpApache"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root",
+        "apache",
+        "grpApache"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root",
+        "apache",
+        "grpApache",
+        "Body"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root",
+        "apache",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root",
+        "apache"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "06E7C373-0C58-4E8B-8AF4-BD3FADE98803",
+        "Root",
+        "Apache",
+        "grpApache",
+        "Body"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16" : {
+    "objectMetadataList" : [
+      [
+        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "Root",
+        "blackbird",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "Root",
+        "blackbird",
+        "DrawCall_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "07507139-1DD8-4FE3-9DE7-0B1F21DDCD16",
+        "Root",
+        "blackbird"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0A9B4653-B11E-4D6A-850E-C6FCB621626C" : {
+    "objectMetadataList" : [
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root",
+        "Sphere"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0AD6B86B-7780-447C-9472-1AD4212A03CB" : {
+    "objectMetadataList" : [
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root",
+        "roofMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root",
+        "wall_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root",
+        "ScratchedMetallicPaint"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root",
+        "wallUnlit"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root",
+        "floorMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0AD6B86B-7780-447C-9472-1AD4212A03CB",
+        "Root",
+        "Cube",
+        "unlitMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0BF58DCB-DBC9-4F96-9541-48AA6C4A0328" : {
+    "objectMetadataList" : [
+      [
+        "0BF58DCB-DBC9-4F96-9541-48AA6C4A0328",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0CD5E7B0-1A80-4D34-AE3A-9506EFAC43CA" : {
+    "objectMetadataList" : [
+      [
+        "0CD5E7B0-1A80-4D34-AE3A-9506EFAC43CA",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0D74892E-B957-420D-9E88-2C5AC800548E" : {
+    "objectMetadataList" : [
+      [
+        "0D74892E-B957-420D-9E88-2C5AC800548E",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0EA9FB00-C372-4D4A-A2FE-C667DBB03639" : {
+    "objectMetadataList" : [
+      [
+        "0EA9FB00-C372-4D4A-A2FE-C667DBB03639",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "10320AD6-375E-4E96-9015-46E9A77C2DBC" : {
+    "objectMetadataList" : [
+      [
+        "10320AD6-375E-4E96-9015-46E9A77C2DBC",
+        "Root",
+        "Eurofighter_Typhoon"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false,
+        "selectedAudioFilePrim" : {
+          "string" : "\/Root\/jetPlaneBeginning1_mp3"
+        }
+      },
+      [
+        "10320AD6-375E-4E96-9015-46E9A77C2DBC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "114646EB-64BA-4A54-B389-4FCE3AD448A4" : {
+    "objectMetadataList" : [
+      [
+        "114646EB-64BA-4A54-B389-4FCE3AD448A4",
+        "Root",
+        "blackbird"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "114646EB-64BA-4A54-B389-4FCE3AD448A4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "117EBEC2-DC07-4F2B-81E4-3256A4B1BCAD" : {
+    "objectMetadataList" : [
+      [
+        "117EBEC2-DC07-4F2B-81E4-3256A4B1BCAD",
+        "Root",
+        "spitfire",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "117EBEC2-DC07-4F2B-81E4-3256A4B1BCAD",
+        "Root",
+        "spitfire"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "117EBEC2-DC07-4F2B-81E4-3256A4B1BCAD",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "171DDE76-B305-46C7-A493-71EB3BBA8402" : {
+    "objectMetadataList" : [
+      [
+        "171DDE76-B305-46C7-A493-71EB3BBA8402",
+        "Root",
+        "AnyConv_com__KA25A_L"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "171DDE76-B305-46C7-A493-71EB3BBA8402",
+        "Root",
+        "AnyConv_com__KA25A_L",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "171DDE76-B305-46C7-A493-71EB3BBA8402",
+        "Root",
+        "AnyConv_com__KA25A_L",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "171DDE76-B305-46C7-A493-71EB3BBA8402",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "17A825A9-24D8-49E2-9FD0-6093BB968B78" : {
+    "objectMetadataList" : [
+      [
+        "17A825A9-24D8-49E2-9FD0-6093BB968B78",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "1CBF3893-ABFD-408C-8B91-045BFD257808" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "1E6BB6FE-AB7E-4729-A557-805A7E0D84B4" : {
+    "objectMetadataList" : [
+      [
+        "1E6BB6FE-AB7E-4729-A557-805A7E0D84B4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "1E6BB6FE-AB7E-4729-A557-805A7E0D84B4",
+        "Root",
+        "AnyConv_com__F16FIN_L",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "1E6BB6FE-AB7E-4729-A557-805A7E0D84B4",
+        "Root",
+        "AnyConv_com__F16FIN_L"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "1E6BB6FE-AB7E-4729-A557-805A7E0D84B4",
+        "Root",
+        "AnyConv_com__F16FIN_L",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "1EE9157F-6B23-453D-93E4-292031B0C2FD" : {
+    "objectMetadataList" : [
+      [
+        "1EE9157F-6B23-453D-93E4-292031B0C2FD",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0" : {
+    "objectMetadataList" : [
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "f14Tomcat",
+        "Meshes",
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
+        "Object_3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "Meshes",
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "f14Tomcat"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "Meshes",
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
+        "Object_3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "Meshes",
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
+        "Object_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "f14Tomcat",
+        "Meshes",
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles",
+        "Object_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "F_14_Tomcat_Top_Gun_Gear_Down_Downloadable",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "f14Tomcat",
+        "Meshes",
+        "Sketchfab_model",
+        "F_14_Gear_Down_obj_cleaner_materialmerger_gles"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "f14Tomcat",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "20C3BA7D-16BE-4A8B-ADC0-504878F0D8C0",
+        "Root",
+        "f14Tomcat",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "26DBAE76-5DD8-47B6-A085-1B4ADA111097" : {
+    "objectMetadataList" : [
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "271EB925-1135-4FC8-B0D5-250A808BA034" : {
+    "objectMetadataList" : [
+      [
+        "271EB925-1135-4FC8-B0D5-250A808BA034",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "27D26CC6-5A9E-4B9F-B891-479A0E8B4C75" : {
+    "objectMetadataList" : [
+      [
+        "27D26CC6-5A9E-4B9F-B891-479A0E8B4C75",
+        "Root",
+        "b1_lancer"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "27D26CC6-5A9E-4B9F-B891-479A0E8B4C75",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448" : {
+    "objectMetadataList" : [
+      [
+        "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448",
+        "Root",
+        "Sukhoi_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2AEEBC41-68A7-4CF0-BB8D-5EEDF8F9A448",
+        "Root",
+        "Sukhoi_1",
+        "Sukhoi"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "2E4411C2-3CA3-4C10-BE55-A02DFFAAA560" : {
+    "objectMetadataList" : [
+      [
+        "2E4411C2-3CA3-4C10-BE55-A02DFFAAA560",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "330F1FD2-531C-40F5-A2F1-643C6E991757" : {
+    "objectMetadataList" : [
+      [
+        "330F1FD2-531C-40F5-A2F1-643C6E991757",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "34C460AE-CA1B-4348-BD05-621ACBDFFE97" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "3987ED37-8FD6-4193-AE04-B69C46D61B8D" : {
+    "objectMetadataList" : [
+      [
+        "3987ED37-8FD6-4193-AE04-B69C46D61B8D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "3AD18073-C014-4294-9966-E5C70EA1D4C4" : {
+    "objectMetadataList" : [
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root",
+        "Material"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root",
+        "ac130"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root",
+        "ac130",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root",
+        "ac130",
+        "Geom",
+        "AC130_Untitled_001_AC130"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3AD18073-C014-4294-9966-E5C70EA1D4C4",
+        "Root",
+        "ac130",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "3B2D92F2-01F7-40E8-826A-E5EA6A664378" : {
+    "objectMetadataList" : [
+      [
+        "3B2D92F2-01F7-40E8-826A-E5EA6A664378",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624" : {
+    "objectMetadataList" : [
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "B2",
+        "Geom",
+        "B2FuseB_B2ChaBoo"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "C0818053",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "B2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "C0818053",
+        "Geom",
+        "B2FuseFr_B2ChapOs"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "B2",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "B2",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "3D8D95C1-7CD8-4AAB-B89B-3A77E46F7624",
+        "Root",
+        "C0818053",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "3FA5B0DD-4287-4240-AE2E-C460033485EC" : {
+    "objectMetadataList" : [
+      [
+        "3FA5B0DD-4287-4240-AE2E-C460033485EC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "4157023B-D1AD-4515-9A80-19E7910E7FE6" : {
+    "objectMetadataList" : [
+      [
+        "4157023B-D1AD-4515-9A80-19E7910E7FE6",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "435856A4-281D-478E-8F15-0307A6F3734C" : {
+    "objectMetadataList" : [
+      [
+        "435856A4-281D-478E-8F15-0307A6F3734C",
+        "Root",
+        "F_104_Starfighter"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "435856A4-281D-478E-8F15-0307A6F3734C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "440DE5B4-E4E4-459B-AABF-9ACE96319272" : {
+    "objectMetadataList" : [
+      [
+        "440DE5B4-E4E4-459B-AABF-9ACE96319272",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "4747139D-B0E2-49CC-B8CF-FF2B19325777" : {
+    "objectMetadataList" : [
+      [
+        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
+        "Root",
+        "F35_Lightning2_1",
+        "F35_Lightning2",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
+        "Root",
+        "F35_Lightning2_1",
+        "F35_Lightning2",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
+        "Root",
+        "F35_Lightning2_1",
+        "F35_Lightning2",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
+        "Root",
+        "F35_Lightning2_1",
+        "F35_Lightning2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
+        "Root",
+        "F35_Lightning2_1",
+        "F35_Lightning2",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4747139D-B0E2-49CC-B8CF-FF2B19325777",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "4AD9360F-542A-416C-97BE-C39C87A7822C" : {
+    "objectMetadataList" : [
+      [
+        "4AD9360F-542A-416C-97BE-C39C87A7822C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "4C34E370-E591-4FBD-B8BD-3131AB515DEE" : {
+    "objectMetadataList" : [
+      [
+        "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
+        "Root",
+        "SR_71_Blackbird_1",
+        "DrawCall_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
+        "Root",
+        "SR_71_Blackbird_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
+        "Root",
+        "SR_71_Blackbird_1",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4C34E370-E591-4FBD-B8BD-3131AB515DEE",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "4F3BAE81-BFC2-49DA-98E1-7DF637F5C3F8" : {
+    "objectMetadataList" : [
+      [
+        "4F3BAE81-BFC2-49DA-98E1-7DF637F5C3F8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "51A6A4C3-4EAD-48DE-B883-5577934E2573" : {
+    "objectMetadataList" : [
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null",
+        "Window_R2",
+        "Window_R2_Material__25_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null",
+        "Window_R2",
+        "Window_R2_Material__26_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null",
+        "Window_R2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null",
+        "cabinDoor_L"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51A6A4C3-4EAD-48DE-B883-5577934E2573",
+        "Root",
+        "BlackHawk",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "51C57417-891A-4F88-81D5-4F8A8C2F4A98" : {
+    "objectMetadataList" : [
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model",
+        "f92ae565242244b48ba518048c8072da_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model",
+        "f92ae565242244b48ba518048c8072da_fbx",
+        "RootNode",
+        "Flarewires_low"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model",
+        "f92ae565242244b48ba518048c8072da_fbx",
+        "RootNode",
+        "frontgearpin_low"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model",
+        "f92ae565242244b48ba518048c8072da_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "51C57417-891A-4F88-81D5-4F8A8C2F4A98",
+        "Root",
+        "Mi_24",
+        "Meshes",
+        "Sketchfab_model",
+        "f92ae565242244b48ba518048c8072da_fbx",
+        "RootNode",
+        "helicopterbody_low"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "525AFA0B-4E5C-4737-9A31-28FFC71922FC" : {
+    "objectMetadataList" : [
+      [
+        "525AFA0B-4E5C-4737-9A31-28FFC71922FC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "52780A33-9F00-4034-AF90-65DFC5176350" : {
+    "objectMetadataList" : [
+      [
+        "52780A33-9F00-4034-AF90-65DFC5176350",
+        "Root",
+        "Mig_23_UB"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "52780A33-9F00-4034-AF90-65DFC5176350",
+        "Root",
+        "Mig_23_UB",
+        "Meshes",
+        "Sketchfab_model",
+        "mig23ub_FBX"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "52780A33-9F00-4034-AF90-65DFC5176350",
+        "Root",
+        "Mig_23_UB",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "52780A33-9F00-4034-AF90-65DFC5176350",
+        "Root",
+        "Mig_23_UB",
+        "Meshes",
+        "Sketchfab_model",
+        "mig23ub_FBX",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "52780A33-9F00-4034-AF90-65DFC5176350",
+        "Root",
+        "Mig_23_UB",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "52780A33-9F00-4034-AF90-65DFC5176350",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "5490DAAC-FAD0-4ED9-B8B4-843925750456" : {
+    "objectMetadataList" : [
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root",
+        "MiG_29",
+        "MiG_29___Fighter_Jet___Free",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root",
+        "MiG_29_1",
+        "MiG_29___Fighter_Jet___Free"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root",
+        "MiG_29",
+        "MiG_29___Fighter_Jet___Free"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "Root",
+        "MiG_29"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5490DAAC-FAD0-4ED9-B8B4-843925750456",
+        "MiG_29"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "59470FE8-B758-4826-996D-5D93D93B45DA" : {
+    "objectMetadataList" : [
+      [
+        "59470FE8-B758-4826-996D-5D93D93B45DA",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "59470FE8-B758-4826-996D-5D93D93B45DA",
+        "Root",
+        "landingGear"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "59470FE8-B758-4826-996D-5D93D93B45DA",
+        "Root",
+        "landingGear",
+        "su47_landingOn_6",
+        "Object_16"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "59470FE8-B758-4826-996D-5D93D93B45DA",
+        "Root",
+        "landingGear",
+        "su47_landingOn_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "59470FE8-B758-4826-996D-5D93D93B45DA",
+        "Root",
+        "Sukhoi"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "5B8133DC-8C26-4CE3-9F72-A0C517849BB8" : {
+    "objectMetadataList" : [
+      [
+        "5B8133DC-8C26-4CE3-9F72-A0C517849BB8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA" : {
+    "objectMetadataList" : [
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
+        "RootNode",
+        "Part_1_1_low"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
+        "RootNode",
+        "Part_1_1_low",
+        "Part_1_1_low_Material_001_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
+        "RootNode",
+        "Plane_333"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model",
+        "f5b8bc8993cd46e2a7958d355c6d9163_fbx",
+        "RootNode",
+        "Plane_333",
+        "Plane_333_Material_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "5EFD91A9-BE69-49CF-9222-8ED4BFFEA1EA",
+        "Root",
+        "F_104_Starfighter",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "60CAA183-9FC6-4535-AB12-5DA295BCCEC9" : {
+    "objectMetadataList" : [
+      [
+        "60CAA183-9FC6-4535-AB12-5DA295BCCEC9",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "61E914E1-5F20-4935-8ED0-31B8E926E6A2" : {
+    "objectMetadataList" : [
+      [
+        "61E914E1-5F20-4935-8ED0-31B8E926E6A2",
+        "_11805_airplane_v2_L2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "61E914E1-5F20-4935-8ED0-31B8E926E6A2",
+        "_11805_airplane_v2_L2",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "61E914E1-5F20-4935-8ED0-31B8E926E6A2",
+        "_11805_airplane_v2_L2",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "625DDC5E-EB4E-4984-A513-57E20B48D3F5" : {
+    "objectMetadataList" : [
+      [
+        "625DDC5E-EB4E-4984-A513-57E20B48D3F5",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7" : {
+    "objectMetadataList" : [
+      [
+        "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
+        "Root",
+        "SR_71_Blackbird_1",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
+        "Root",
+        "SR_71_Blackbird_1",
+        "DrawCall_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6BA6CE61-4647-4D8E-ADA4-F30D297C33A7",
+        "Root",
+        "blackBird"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD" : {
+    "objectMetadataList" : [
+      [
+        "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
+        "Root",
+        "j20",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
+        "Root",
+        "j20",
+        "Geom",
+        "Basis"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
+        "Root",
+        "j20",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "6C11C3C4-0CBA-46F1-91D2-A241C8BFF1AD",
+        "Root",
+        "j20"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7062B0F5-0A8B-4DB2-9376-5ADD21463E04" : {
+    "objectMetadataList" : [
+      [
+        "7062B0F5-0A8B-4DB2-9376-5ADD21463E04",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "71393687-2933-4D8A-AC10-8E59942BADC1" : {
+    "objectMetadataList" : [
+      [
+        "71393687-2933-4D8A-AC10-8E59942BADC1",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7154B6BA-0E3F-441E-A4A8-A743EF427D76" : {
+    "objectMetadataList" : [
+      [
+        "7154B6BA-0E3F-441E-A4A8-A743EF427D76",
+        "Root",
+        "HARR",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7154B6BA-0E3F-441E-A4A8-A743EF427D76",
+        "Root",
+        "HARR",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7154B6BA-0E3F-441E-A4A8-A743EF427D76",
+        "Root",
+        "HARR",
+        "Geom",
+        "HARRdLta_HARRtail"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7154B6BA-0E3F-441E-A4A8-A743EF427D76",
+        "Root",
+        "HARR"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0" : {
+    "objectMetadataList" : [
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "C0815116",
+        "object05"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "warthog",
+        "object00"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "Warthog",
+        "object05"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "C0815116",
+        "object00"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "Warthog",
+        "object00"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "warthog",
+        "object05"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A0B86E5-EAC1-4B90-BADD-FD463C3E27F0",
+        "Root",
+        "Warthog"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7B3519D4-3753-47B7-8B8B-75E5A2002ABC" : {
+    "objectMetadataList" : [
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root",
+        "MiG_35",
+        "MiG_35"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root",
+        "MiG_35"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root",
+        "MiG_35",
+        "MiG_35",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root",
+        "MiG_35_1",
+        "MiG_35"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root",
+        "MiG_35",
+        "MiG_35",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root",
+        "MiG_35_1",
+        "MiG_35",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7B3519D4-3753-47B7-8B8B-75E5A2002ABC",
+        "Root",
+        "MiG_35_1",
+        "MiG_35",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7EF42796-68EE-4330-954D-0853FBBEB57C" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "7F398AB5-DD3C-46AD-9D05-944FBA578B61" : {
+    "objectMetadataList" : [
+      [
+        "7F398AB5-DD3C-46AD-9D05-944FBA578B61",
+        "AnyConv_com__spit",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7F398AB5-DD3C-46AD-9D05-944FBA578B61",
+        "AnyConv_com__spit",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "80001D61-774B-4EC9-92F1-F5B8B2F9B07B" : {
+    "objectMetadataList" : [
+      [
+        "80001D61-774B-4EC9-92F1-F5B8B2F9B07B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA" : {
+    "objectMetadataList" : [
+      [
+        "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA",
+        "Root",
+        "me_1099",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA",
+        "Root",
+        "me_109",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "81A07E05-36D6-4C19-987B-F8CDBDBD2EAA",
+        "Root",
+        "me_109"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "82847EE5-0A15-4C6D-83AB-1A8A72BFDA28" : {
+    "objectMetadataList" : [
+      [
+        "82847EE5-0A15-4C6D-83AB-1A8A72BFDA28",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "83C6D32F-B6D6-46E9-9F8D-75A24F3F046B" : {
+    "objectMetadataList" : [
+      [
+        "83C6D32F-B6D6-46E9-9F8D-75A24F3F046B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "88D77690-A240-480E-9860-50E4C2B7E5C4" : {
+    "objectMetadataList" : [
+      [
+        "88D77690-A240-480E-9860-50E4C2B7E5C4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "88D77690-A240-480E-9860-50E4C2B7E5C4",
+        "Root",
+        "HARR"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "88D77690-A240-480E-9860-50E4C2B7E5C4",
+        "Root",
+        "HARR",
+        "Geom",
+        "HARRdLta_HARRtail"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "88D77690-A240-480E-9860-50E4C2B7E5C4",
+        "Root",
+        "HARR",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "88D77690-A240-480E-9860-50E4C2B7E5C4",
+        "Root",
+        "HARR",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "8FBC6A10-B056-4214-BA4B-FF487796DF90" : {
+    "objectMetadataList" : [
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15c",
+        "Geom",
+        "objLOD0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "landingGear"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "landingGear",
+        "su47_landingOn_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "landingGear",
+        "su47_landingOn_6",
+        "Object_16"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15c",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15",
+        "Geom",
+        "objLOD0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8FBC6A10-B056-4214-BA4B-FF487796DF90",
+        "Root",
+        "f_15c",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "9114CCFB-1E66-4068-9FFA-585F44E7588F" : {
+    "objectMetadataList" : [
+      [
+        "9114CCFB-1E66-4068-9FFA-585F44E7588F",
+        "Root",
+        "stealthBomber",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9114CCFB-1E66-4068-9FFA-585F44E7588F",
+        "Root",
+        "stealthBomber"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9114CCFB-1E66-4068-9FFA-585F44E7588F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "927A6128-CE16-478D-B01D-CD2EC94EAFC8" : {
+    "objectMetadataList" : [
+      [
+        "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
+        "Root",
+        "PBR"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
+        "Root",
+        "PBR_Fighter_Jet_V2S_Animated",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
+        "Root",
+        "PBR",
+        "SkinnedMeshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
+        "Root",
+        "PBR",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "927A6128-CE16-478D-B01D-CD2EC94EAFC8",
+        "Root",
+        "PBR_Fighter_Jet_V2S_Animated",
+        "SkinnedMeshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "938D623D-AC0A-440B-960B-516293101419" : {
+    "objectMetadataList" : [
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root",
+        "F_22_Raptor",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root",
+        "F_22_Raptor",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root",
+        "F_22_Raptor"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root",
+        "F_22_Raptor",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root",
+        "F_22_Raptor",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "938D623D-AC0A-440B-960B-516293101419",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "93C5CE00-B415-4AD8-A189-808E9803D57D" : {
+    "objectMetadataList" : [
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null",
+        "pilot"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode",
+        "Null"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "93C5CE00-B415-4AD8-A189-808E9803D57D",
+        "Root",
+        "BlackHawk",
+        "Meshes",
+        "Sketchfab_model",
+        "uh_60_blackhawk_helicopter_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "956B8708-3E30-4D18-9DBF-B5523B8D423E" : {
+    "objectMetadataList" : [
+      [
+        "956B8708-3E30-4D18-9DBF-B5523B8D423E",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "98615E76-3F5D-4E8D-8661-3E4EBEF8DB15" : {
+    "objectMetadataList" : [
+      [
+        "98615E76-3F5D-4E8D-8661-3E4EBEF8DB15",
+        "Root",
+        "offspray"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "98615E76-3F5D-4E8D-8661-3E4EBEF8DB15",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "9CAC7BD4-ADB0-477B-A316-B92A7C94E026" : {
+    "objectMetadataList" : [
+      [
+        "9CAC7BD4-ADB0-477B-A316-B92A7C94E026",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "9E8AA3BD-A26B-45FF-81CB-B30B2A8EF033" : {
+    "objectMetadataList" : [
+      [
+        "9E8AA3BD-A26B-45FF-81CB-B30B2A8EF033",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9E8AA3BD-A26B-45FF-81CB-B30B2A8EF033",
+        "Root",
+        "Su_27_Flanker"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "A1A03EEC-AF91-4BAA-9656-CC226603B99F" : {
+    "objectMetadataList" : [
+      [
+        "A1A03EEC-AF91-4BAA-9656-CC226603B99F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "A50E3897-2B5F-46C6-BB26-63370F3410C2" : {
+    "objectMetadataList" : [
+      [
+        "A50E3897-2B5F-46C6-BB26-63370F3410C2",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "A7BCFAB5-DE49-4911-877A-655BDBF83F7D" : {
+    "objectMetadataList" : [
+      [
+        "A7BCFAB5-DE49-4911-877A-655BDBF83F7D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AA3BB896-401D-4E86-8429-C7903DB8156F" : {
+    "objectMetadataList" : [
+      [
+        "AA3BB896-401D-4E86-8429-C7903DB8156F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AAFAAFC6-238B-4322-A6FC-B1E717D816E2" : {
+    "objectMetadataList" : [
+      [
+        "AAFAAFC6-238B-4322-A6FC-B1E717D816E2",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AAFAAFC6-238B-4322-A6FC-B1E717D816E2",
+        "Root",
+        "_11805_airplane_v2_L2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AAFAAFC6-238B-4322-A6FC-B1E717D816E2",
+        "Root",
+        "_11805_airplane_v2_L2",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AB6A4B35-5F0C-400C-A6AC-423A009DC507" : {
+    "objectMetadataList" : [
+      [
+        "AB6A4B35-5F0C-400C-A6AC-423A009DC507",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AC9F15ED-D320-4633-8104-1A8B650F0E89" : {
+    "objectMetadataList" : [
+      [
+        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
+        "Root",
+        "Me109",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
+        "me_109",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
+        "Root",
+        "me_109"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
+        "Root",
+        "me_109",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AC9F15ED-D320-4633-8104-1A8B650F0E89",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AD0861EE-B7C4-40B3-B961-08C92481219E" : {
+    "objectMetadataList" : [
+      [
+        "AD0861EE-B7C4-40B3-B961-08C92481219E",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AD0861EE-B7C4-40B3-B961-08C92481219E",
+        "Root",
+        "HARR"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AD0861EE-B7C4-40B3-B961-08C92481219E",
+        "Root",
+        "HARR",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AD0861EE-B7C4-40B3-B961-08C92481219E",
+        "Root",
+        "HARR",
+        "Geom",
+        "HARRdLta_HARRtail"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B434065B-6FAF-4C1F-876A-A5845D2448E2" : {
+    "objectMetadataList" : [
+      [
+        "B434065B-6FAF-4C1F-876A-A5845D2448E2",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B7FCC169-F28E-4AAC-B6CE-6F1E6D3CE67C" : {
+    "objectMetadataList" : [
+      [
+        "B7FCC169-F28E-4AAC-B6CE-6F1E6D3CE67C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "BBE2A52D-3B83-4652-ABF4-41B1F17A7CF1" : {
+    "objectMetadataList" : [
+      [
+        "BBE2A52D-3B83-4652-ABF4-41B1F17A7CF1",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "BF1A984C-E500-4D7E-8C42-3273FEF4C6D7" : {
+    "objectMetadataList" : [
+      [
+        "BF1A984C-E500-4D7E-8C42-3273FEF4C6D7",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "BF61EC26-0549-4201-9B6D-CAA1B8BCC129" : {
+    "objectMetadataList" : [
+      [
+        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
+        "Root",
+        "apache"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
+        "Root",
+        "apache",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
+        "Root",
+        "apache",
+        "grpApache"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
+        "Root",
+        "apache",
+        "grpApache",
+        "Body"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BF61EC26-0549-4201-9B6D-CAA1B8BCC129",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8" : {
+    "objectMetadataList" : [
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
+        "Mustang",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
+        "Mustang",
+        "Geom",
+        "_material_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
+        "Mustang"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
+        "P_51_Mustang",
+        "Geom",
+        "_material_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
+        "P_51_Mustang",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root",
+        "P_51_Mustang",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "C53BEF7F-3DFD-43F3-AB52-9030B7122DA8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CAA685BA-970F-468E-B177-F26FC5383308" : {
+    "objectMetadataList" : [
+      [
+        "CAA685BA-970F-468E-B177-F26FC5383308",
+        "Root",
+        "totallnotthemig29"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "CAA685BA-970F-468E-B177-F26FC5383308",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CAC570D1-69DA-4AC4-9314-F69E3525E7C4" : {
+    "objectMetadataList" : [
+      [
+        "CAC570D1-69DA-4AC4-9314-F69E3525E7C4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CDF236A0-DC0B-4D99-89FE-0DB5C6796880" : {
+    "objectMetadataList" : [
+      [
+        "CDF236A0-DC0B-4D99-89FE-0DB5C6796880",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CE04368B-7D8B-4BBC-898B-0A6B55D81E6B" : {
+    "objectMetadataList" : [
+      [
+        "CE04368B-7D8B-4BBC-898B-0A6B55D81E6B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D2BC70F3-A50B-42C4-93E1-3959658C61D3" : {
+    "objectMetadataList" : [
+      [
+        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
+        "Root",
+        "landingGear",
+        "typn_landingOn_7"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
+        "Root",
+        "Chengdu"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
+        "Root",
+        "landingGear",
+        "su47_landingOn_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
+        "Root",
+        "landingGear",
+        "typn_landingOn_7",
+        "Object_16"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
+        "Root",
+        "landingGear",
+        "su47_landingOn_6",
+        "Object_16"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D2BC70F3-A50B-42C4-93E1-3959658C61D3",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D70F4F2C-7549-4AEC-996B-E32197609462" : {
+    "objectMetadataList" : [
+      [
+        "D70F4F2C-7549-4AEC-996B-E32197609462",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D70F4F2C-7549-4AEC-996B-E32197609462",
+        "Root",
+        "Warthog"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D802923A-E09A-4EE1-A985-B4FE4528BA30" : {
+    "objectMetadataList" : [
+      [
+        "D802923A-E09A-4EE1-A985-B4FE4528BA30",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D802923A-E09A-4EE1-A985-B4FE4528BA30",
+        "Root",
+        "AC130",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D802923A-E09A-4EE1-A985-B4FE4528BA30",
+        "Root",
+        "AC130"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D802923A-E09A-4EE1-A985-B4FE4528BA30",
+        "Root",
+        "AC130",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D802923A-E09A-4EE1-A985-B4FE4528BA30",
+        "Root",
+        "AC130",
+        "Geom",
+        "AC130_Untitled_001_AC130"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D802923A-E09A-4EE1-A985-B4FE4528BA30",
+        "Root",
+        "Cylinder"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "E37EC9E4-C8AD-4B96-A559-B0270707A3DF" : {
+    "objectMetadataList" : [
+      [
+        "E37EC9E4-C8AD-4B96-A559-B0270707A3DF",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "E3A004DD-76BD-4484-B757-D7A1EC2464C7" : {
+    "objectMetadataList" : [
+      [
+        "E3A004DD-76BD-4484-B757-D7A1EC2464C7",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "E40038BD-EBFE-4093-92B5-F8708D9543DD" : {
+    "objectMetadataList" : [
+      [
+        "E40038BD-EBFE-4093-92B5-F8708D9543DD",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "EB24C285-8F0E-4189-8C2F-6B5C2F151ADE" : {
+    "objectMetadataList" : [
+      [
+        "EB24C285-8F0E-4189-8C2F-6B5C2F151ADE",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "EBB424EA-CF30-4B88-AF9C-71B1ABDAD9E4" : {
+    "objectMetadataList" : [
+      [
+        "EBB424EA-CF30-4B88-AF9C-71B1ABDAD9E4",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "ED76A921-925A-4241-B2AE-19B27AA858D8" : {
+    "objectMetadataList" : [
+      [
+        "ED76A921-925A-4241-B2AE-19B27AA858D8",
+        "Root",
+        "F16_Fixed"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "ED76A921-925A-4241-B2AE-19B27AA858D8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "EFAE0982-A084-4239-8D2D-1E76D5E2900F" : {
+    "objectMetadataList" : [
+      [
+        "EFAE0982-A084-4239-8D2D-1E76D5E2900F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F0D966AA-62BA-4A75-A0B2-DFB0EEFD3426" : {
+    "objectMetadataList" : [
+      [
+        "F0D966AA-62BA-4A75-A0B2-DFB0EEFD3426",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F2A6C995-8229-4BA1-9D85-9843E143C2E1" : {
+    "objectMetadataList" : [
+      [
+        "F2A6C995-8229-4BA1-9D85-9843E143C2E1",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F372F54A-671D-4D64-94A9-7B2BA031E0EB" : {
+    "objectMetadataList" : [
+      [
+        "F372F54A-671D-4D64-94A9-7B2BA031E0EB",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "F372F54A-671D-4D64-94A9-7B2BA031E0EB",
+        "Root",
+        "MiG_17"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F45F57F1-A981-4F7D-BD36-7C695D052703" : {
+    "objectMetadataList" : [
+      [
+        "F45F57F1-A981-4F7D-BD36-7C695D052703",
+        "f18",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "F45F57F1-A981-4F7D-BD36-7C695D052703",
+        "f18"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "F45F57F1-A981-4F7D-BD36-7C695D052703",
+        "f18",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F734B467-9A1A-4F0D-94E3-DC235B255739" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "F799AC41-9F03-4244-947D-D5750435DC80" : {
+    "objectMetadataList" : [
+      [
+        "F799AC41-9F03-4244-947D-D5750435DC80",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F92319ED-AA70-491E-828A-DE8A98F91974" : {
+    "objectMetadataList" : [
+      [
+        "F92319ED-AA70-491E-828A-DE8A98F91974",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "FA483034-7C19-40CC-8E19-422D03A8969F" : {
+    "objectMetadataList" : [
+      [
+        "FA483034-7C19-40CC-8E19-422D03A8969F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A" : {
+    "objectMetadataList" : [
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Empty_001_57"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Empty_001_57"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Empty_001_57",
+        "landingGear"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MIG_17_Fighter_Jet",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "Root",
+        "MiG_17",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Empty_001_57"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "FBAC0A3D-25F7-475D-9A1D-88BB1CC6A57A",
+        "MiG_17",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Empty_001_57",
+        "Group"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "FBD8436F-6B8B-4B82-99B5-995D538B4704" : {
+    "objectMetadataList" : [
+      [
+        "FBD8436F-6B8B-4B82-99B5-995D538B4704",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "FDDA3246-A6CF-4094-9252-534205F2B8B8" : {
+    "objectMetadataList" : [
+      [
+        "FDDA3246-A6CF-4094-9252-534205F2B8B8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "FF4FC534-0DA8-4D00-A960-FDD46CCE5527" : {
+    "objectMetadataList" : [
+
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["randomPlaneNoise1", "randomPlaneNoise2", "randomPlaneNoise3"]
+    def RealityKitAudioFile "randomPlaneNoise2"
+    {
+        asset file = @jetplane2.mp3@
+    }
+
+    def RealityKitAudioFile "randomPlaneNoise3"
+    {
+        asset file = @jetPlaneBeginning1 1.mp3@
+    }
+
+    def RealityKitAudioFile "helicopter_mp3"
+    {
+        asset file = @helicopter.mp3@
+    }
+
+    def RealityKitAudioFile "gtajet1_mp3"
+    {
+        uniform asset file = @gtajet1.mp3@
+    }
+
+    def RealityKitAudioFile "gtajet3_mp3"
+    {
+        uniform asset file = @gtajet3.mp3@
+    }
+
+    def RealityKitAudioFile "gtajet2_mp3"
+    {
+        uniform float absoluteCalibration = 500
+        uniform token calibrationMode = "relative"
+        uniform asset file = @gtajet2.mp3@
+        uniform token normalization = "none"
+        uniform float relativeCalibration = 10000
+    }
+}
+

@@ -1,0 +1,151 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = ""
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["F_117", "Cube", "Cube_1"]
+    quatf xformOp:orient = (1, 0, 0, 0)
+    float3 xformOp:scale = (1, 1, 1)
+    float3 xformOp:translate = (0, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def Cube "Cube" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube/DefaultMaterial>
+        double size = 0.2
+        float3 xformOp:scale = (1, 500, 500)
+        float3 xformOp:translate = (6.5990043, 0, 10.324014)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+
+    def Cube "Cube_1" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube_1/DefaultMaterial>
+        double size = 0.2
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 500, 500)
+        float3 xformOp:translate = (-6.599, 0, 10.324014)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            token outputs:surface.connect = </Root/Cube_1/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+
+    def "F_117" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 3.1415927, 0)
+        }
+        references = @F-117.usdz@
+    )
+    {
+        quatf xformOp:orient = (-4.371139e-8, 0, 1, 0)
+        float3 xformOp:scale = (0.008163474, 0.008163474, 0.008163474)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "Body"
+            {
+                token outputs:surface.connect = </Root/F_117/Materials/Body/pbr_shader.outputs:surface>
+
+                over "pbr_shader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/F_117/Materials/Body/tex_base.outputs:rgb>
+                    color3f inputs:emissiveColor.connect = </Root/F_117/Materials/Body/tex_emissive.outputs:rgb>
+                    float inputs:metallic.connect = </Root/F_117/Materials/Body/tex_metallic.outputs:r>
+                    normal3f inputs:normal.connect = </Root/F_117/Materials/Body/tex_normal.outputs:rgb>
+                    float inputs:roughness.connect = </Root/F_117/Materials/Body/tex_roughness.outputs:r>
+                }
+
+                over "tex_base"
+                {
+                    float2 inputs:st.connect = </Root/F_117/Materials/Body/uvset0.outputs:result>
+                }
+
+                over "tex_metallic"
+                {
+                    float2 inputs:st.connect = </Root/F_117/Materials/Body/uvset0.outputs:result>
+                }
+
+                over "tex_roughness"
+                {
+                    float2 inputs:st.connect = </Root/F_117/Materials/Body/uvset0.outputs:result>
+                }
+
+                over "tex_normal"
+                {
+                    float2 inputs:st.connect = </Root/F_117/Materials/Body/uvset0.outputs:result>
+                }
+
+                over "tex_emissive"
+                {
+                    float2 inputs:st.connect = </Root/F_117/Materials/Body/uvset0.outputs:result>
+                }
+            }
+
+            over "Glass"
+            {
+                token outputs:surface.connect = </Root/F_117/Materials/Glass/pbr_shader.outputs:surface>
+            }
+
+            over "Heads_Up"
+            {
+                token outputs:surface.connect = </Root/F_117/Materials/Heads_Up/pbr_shader.outputs:surface>
+            }
+
+            over "Interior"
+            {
+                token outputs:surface.connect = </Root/F_117/Materials/Interior/pbr_shader.outputs:surface>
+
+                over "pbr_shader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/F_117/Materials/Interior/tex_base.outputs:rgb>
+                }
+
+                over "tex_base"
+                {
+                    float2 inputs:st.connect = </Root/F_117/Materials/Interior/uvset0.outputs:result>
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,264 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "spitfire" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 3.1415927, 0)
+        }
+        references = @Spitfire/spit.usdz@
+    )
+    {
+        quatf xformOp:orient = (-4.371139e-8, 0, 1, 0)
+        float3 xformOp:scale = (0.9755965, 0.9755965, 0.9755965)
+        float3 xformOp:translate = (0, -1.4901161e-8, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "Left_Wing"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/Left Wing.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/Left_Wing/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/Left_Wing/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/Left_Wing/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "Rear"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/rear.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/Rear/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/Rear/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/Rear/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "wheel_support"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/Wheel Support.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/wheel_support/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/wheel_support/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/wheel_support/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "Right_Wing"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/Right Wing.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/Right_Wing/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/Right_Wing/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/Right_Wing/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "landing_light"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/landing light.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/landing_light/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/landing_light/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/landing_light/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "Cockpit"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/Cockpit.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/Cockpit/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/Cockpit/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/Cockpit/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "Glass"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "surfaceShader"
+                {
+                    float inputs:clearcoat = 1
+                    color3f inputs:diffuseColor = (0.7198365, 0.765625, 0.70475495) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                    float inputs:opacity = 0.5
+                }
+            }
+
+            over "Body_Front"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/Body Front.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/Body_Front/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/Body_Front/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/Body_Front/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "Pilot"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Spitfire/tex/pilot_uk.png@
+                    float2 inputs:st.connect = </Root/spitfire/Materials/Pilot/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/spitfire/Materials/Pilot/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/spitfire/Materials/Pilot/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "reflect"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+        }
+    }
+}
+

@@ -1,0 +1,119 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "global_hawk" (
+        active = true
+        prepend references = @rq4-global-hawk/global_hawk.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "lambert1"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @rq4-global-hawk/textures/global_hawk_lambert1_BaseColor.png@
+                    float2 inputs:st.connect = </Root/global_hawk/Materials/lambert1/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/global_hawk/Materials/lambert1/lambert1PreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "lambert1PreviewSurface"
+                {
+                    float inputs:clearcoatRoughness = 0
+                    float inputs:clearcoatRoughness.connect = None
+                    color3f inputs:diffuseColor.connect = </Root/global_hawk/Materials/lambert1/diffuseColor.outputs:rgb>
+                    color3f inputs:emissiveColor.connect = None
+                    float inputs:metallic = 0
+                    float inputs:metallic.connect = </Root/global_hawk/Materials/lambert1/metallic.outputs:r>
+                    float inputs:roughness = 0.5
+                    float inputs:roughness.connect = </Root/global_hawk/Materials/lambert1/roughness.outputs:r>
+                }
+
+                def Shader "clearcoatRoughness"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @rq4-global-hawk/textures/global_hawk_lambert1_Roughness.png@
+                    float2 inputs:st.connect = </Root/global_hawk/Materials/lambert1/clearcoatRoughness/TexCoordReader.outputs:result>
+                    float outputs:r
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/global_hawk/Materials/lambert1/lambert1PreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                def Shader "roughness"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @rq4-global-hawk/textures/global_hawk_lambert1_Roughness.png@
+                    float2 inputs:st.connect = </Root/global_hawk/Materials/lambert1/roughness/TexCoordReader.outputs:result>
+                    float outputs:r
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/global_hawk/Materials/lambert1/lambert1PreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                def Shader "metallic"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @rq4-global-hawk/textures/global_hawk_lambert1_Metallic.png@
+                    float2 inputs:st.connect = </Root/global_hawk/Materials/lambert1/metallic/TexCoordReader.outputs:result>
+                    float outputs:r
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/global_hawk/Materials/lambert1/lambert1PreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                def Shader "emissiveColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @rq4-global-hawk/textures/global_hawk_lambert1_Normal.png@
+                    float2 inputs:st.connect = </Root/global_hawk/Materials/lambert1/emissiveColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/global_hawk/Materials/lambert1/lambert1PreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+            }
+        }
+    }
+}
+

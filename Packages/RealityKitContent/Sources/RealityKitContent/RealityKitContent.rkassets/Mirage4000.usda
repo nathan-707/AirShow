@@ -1,0 +1,142 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "Mirage4000" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-1.570796, -3.1415918, 0)
+        }
+        prepend references = @mirage4000/Mirage4000.usdz@
+    )
+    {
+        quatf xformOp:orient = (1.1337718e-7, 5.1559947e-8, 0.70710677, 0.70710677)
+        float3 xformOp:scale = (0.94066364, 0.94066364, 0.94066364)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "plane"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/Mirage4000/Materials/plane/diffuseColor.outputs:rgb>
+                    color3f inputs:emissiveColor.connect = </Root/Mirage4000/Materials/plane/emissiveColor.outputs:rgb>
+                }
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @mirage4000/Dassault_Mirage-4000_P01.png@
+                    float2 inputs:st.connect = </Root/Mirage4000/Materials/plane/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/Mirage4000/Materials/plane/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                def Shader "emissiveColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @mirage4000/Dassault_Mirage-4000_P01.png@
+                    float2 inputs:st.connect = </Root/Mirage4000/Materials/plane/emissiveColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/Mirage4000/Materials/plane/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+            }
+
+            over "glass"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "surfaceShader"
+                {
+                    float inputs:clearcoat = 0.2
+                    float inputs:opacity = 0.8
+                    delete float inputs:opacity.connect = </Root/Mirage4000/Materials/glass/normal_opacity_texture.outputs:a>
+                    float inputs:roughness = 0
+                }
+            }
+
+            over "pilot"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+        }
+    }
+
+    def Cube "Cube" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube/DefaultMaterial>
+        double size = 0.2
+        float3 xformOp:scale = (1, 500, 500)
+        float3 xformOp:translate = (-6.175271, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+
+    def Cube "Cube_1" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube_1/DefaultMaterial>
+        double size = 0.2
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 500, 500)
+        float3 xformOp:translate = (6.175, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            token outputs:surface.connect = </Root/Cube_1/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+}
+

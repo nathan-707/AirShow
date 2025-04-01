@@ -1,0 +1,137 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.60.4)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "OTTER" (
+        active = true
+        references = @OTTER.usdz@
+    )
+    {
+        reorder nameChildren = ["Materials", "Geom", "Cylinder", "spinMat"]
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (100.55149, 100.55149, 100.55149)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Cylinder "Cylinder" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (-1.5661352, 2.3841585e-7, -2.3730726e-7)
+            }
+        )
+        {
+            uniform token axis = "Y"
+            double height = 0.2
+            rel material:binding = </Root/OTTER/spinMat> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double radius = 0.1
+            float2 ui:nodegraph:node:pos = (20, 20)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (0.7087528, -0.70545685, 1.6819396e-7, -5.5138897e-14)
+            float3 xformOp:scale = (0.13066125, 0.0019599192, 0.13066125)
+            float3 xformOp:translate = (-0.027112814, 0.01187473, 0.033716947)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial"
+            {
+                token outputs:surface.connect = </Root/OTTER/Cylinder/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+                def Shader "DefaultSurfaceShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (1, 1, 1)
+                    float inputs:roughness = 0.75
+                    token outputs:surface
+                }
+            }
+        }
+
+        def Material "spinMat"
+        {
+            token outputs:mtlx:surface
+            token outputs:realitykit:vertex
+            token outputs:surface.connect = </Root/OTTER/spinMat/UsdPreviewSurface.outputs:surface>
+            float2 ui:nodegraph:node:pos = (20, 20)
+            int ui:nodegraph:node:stackingOrder = 1
+
+            def Shader "UsdPreviewSurface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                float inputs:metallic = 1
+                float inputs:opacity = 0.2
+                float inputs:roughness = 0
+                token outputs:surface
+            }
+        }
+
+        def Cylinder "Cylinder_1" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (-1.5661352, 2.3841585e-7, -2.3730726e-7)
+            }
+        )
+        {
+            uniform token axis = "Y"
+            double height = 0.2
+            rel material:binding = </Root/OTTER/spinMat> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            double radius = 0.1
+            float2 ui:nodegraph:node:pos = (40, 40)
+            int ui:nodegraph:node:stackingOrder = 2
+            quatf xformOp:orient = (0.7087529, -0.7054568, 1.6819398e-7, -7.51894e-14)
+            float3 xformOp:scale = (0.13066123, 0.0019599192, 0.13066125)
+            float3 xformOp:translate = (0.027597155, 0.011529082, 0.0337153)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def Material "DefaultMaterial"
+            {
+                token outputs:surface.connect = </Root/OTTER/Cylinder_1/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+                def Shader "DefaultSurfaceShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (1, 1, 1)
+                    float inputs:roughness = 0.75
+                    token outputs:surface
+                }
+            }
+        }
+    }
+
+    def Cube "Cube" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube/DefaultMaterial>
+        double size = 0.2
+        float3 xformOp:scale = (1, 100, 100)
+        float3 xformOp:translate = (9.905, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+}
+

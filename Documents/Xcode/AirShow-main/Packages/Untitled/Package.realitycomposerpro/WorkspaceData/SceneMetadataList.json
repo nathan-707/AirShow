@@ -1,0 +1,179 @@
+{
+  "0C7F33B6-5481-4685-8306-B27B229921A7" : {
+    "objectMetadataList" : [
+      [
+        "0C7F33B6-5481-4685-8306-B27B229921A7",
+        "Root",
+        "x_35_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0C7F33B6-5481-4685-8306-B27B229921A7",
+        "Root",
+        "x_35_fbx",
+        "body"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0C7F33B6-5481-4685-8306-B27B229921A7",
+        "Root",
+        "x_35_fbx",
+        "glass"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0C7F33B6-5481-4685-8306-B27B229921A7",
+        "Root",
+        "global_hawk"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0C7F33B6-5481-4685-8306-B27B229921A7",
+        "Root",
+        "global_hawk",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0C7F33B6-5481-4685-8306-B27B229921A7",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0C7F33B6-5481-4685-8306-B27B229921A7",
+        "Root",
+        "global_hawk",
+        "RQ_4_global_hawk_high"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2" : {
+    "objectMetadataList" : [
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root",
+        "SEPECAT_Jaguar"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root",
+        "SEPECAT_Jaguar",
+        "Meshes",
+        "Sketchfab_model",
+        "panel_obj_cleaner_materialmerger_gles",
+        "Object_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root",
+        "b52"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root",
+        "b52",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root",
+        "SEPECAT_Jaguar",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root",
+        "SEPECAT_Jaguar",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "56388C2C-9510-4E22-8F21-B7E5FB0E4EB2",
+        "Root",
+        "SEPECAT_Jaguar",
+        "Meshes",
+        "Sketchfab_model",
+        "panel_obj_cleaner_materialmerger_gles"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D5AA91CB-B838-41B2-A525-5BAC28A124A3" : {
+    "objectMetadataList" : [
+      [
+        "D5AA91CB-B838-41B2-A525-5BAC28A124A3",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D5AA91CB-B838-41B2-A525-5BAC28A124A3",
+        "Root",
+        "gripen"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "stealthBomber" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (4.7123895, -1.0426846, -8.280013e-7)
+        }
+        references = @B2.usd@
+    )
+    {
+        quatf xformOp:orient = (0.6131687, -0.61316854, -0.35217053, -0.3521708)
+        float3 xformOp:scale = (0.054444116, 0.054444116, 0.054444116)
+        float3 xformOp:translate = (0.27319208, -0.0000014097329, -2.69214)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "B2ChapOs"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2ChapOs/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2ChapOs/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2ChapOs/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2TrenAt"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2TrenAt/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2TrenAt/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2TrenAt/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2Crom"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2Crom/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2Crom/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2Crom/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2Rueda"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2Rueda/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2Rueda/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2Rueda/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2Gomi"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2Gomi/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2Gomi/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2Gomi/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2Glass"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2Glass/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2Glass/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2Glass/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2ChaTop"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2ChaTop/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2ChaTop/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2ChaTop/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2Ch210"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2Ch210/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2Ch210/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2Ch210/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "B2ChaBoo"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @nateStealth1.png@
+                    float2 inputs:st.connect = </Root/stealthBomber/Materials/B2ChaBoo/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/stealthBomber/Materials/B2ChaBoo/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/stealthBomber/Materials/B2ChaBoo/diffuseColor.outputs:rgb>
+                }
+            }
+        }
+    }
+}
+

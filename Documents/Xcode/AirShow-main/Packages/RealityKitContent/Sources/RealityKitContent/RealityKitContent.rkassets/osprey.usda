@@ -1,0 +1,107 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "osprey" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, -3.1415918, 0)
+        }
+        prepend references = @osprey.usdz@
+    )
+    {
+        quatf xformOp:orient = (4.371139e-8, 0, 1, 0)
+        float3 xformOp:scale = (2.1270492, 2.1270492, 2.1270492)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "osprey"
+        {
+            over "Materials"
+            {
+                over "v22_osprey_v22_ospreymtl_v22_osprey_iw6_interiorPreviewSurface"
+                {
+                    over "v22_osprey_v22_ospreymtl_v22_osprey_iw6_interiorPreviewSurfacePreviewSurface"
+                    {
+                        color3f inputs:diffuseColor = (0.004623187, 0.0011074833, 0.0004180534) (
+                            colorSpace = "srgb_displayp3"
+                        )
+                    }
+                }
+
+                over "v22_osprey_v22_ospreymtl_v22_osprey_iw6_alphaPreviewSurface"
+                {
+                    over "v22_osprey_v22_ospreymtl_v22_osprey_iw6_alphaPreviewSurfacePreviewSurface"
+                    {
+                        color3f inputs:diffuseColor = (0.00080128206, 0, 0) (
+                            colorSpace = "srgb_texture"
+                        )
+                        delete color3f inputs:diffuseColor.connect = </Root/osprey/osprey/Materials/v22_osprey_v22_ospreymtl_v22_osprey_iw6_alphaPreviewSurface/diffuseColor.outputs:rgb>
+                        float inputs:metallic = 0
+                        float inputs:opacity = 0.6
+                        float inputs:roughness = 0
+                    }
+                }
+            }
+        }
+    }
+
+    def Cube "Cube" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube/DefaultMaterial>
+        double size = 0.2
+        float3 xformOp:scale = (1, 500, 500)
+        float3 xformOp:translate = (-13.033461, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+
+    def Cube "Cube_1" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube_1/DefaultMaterial>
+        double size = 0.2
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 500, 500)
+        float3 xformOp:translate = (13.033, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            token outputs:surface.connect = </Root/Cube_1/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+    }
+}
+

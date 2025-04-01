@@ -1,0 +1,1617 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["gripen", "Material"]
+    def "gripen" (
+        active = true
+        references = @Gripen/gripen.usdz@
+    )
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            reorder nameChildren = ["DefaultWhite", "DefaultWhite_mfd3_png", "DefaultWhite_canvasTex_png", "DefaultWhite_mfd2_png", "DefaultWhite_mfd1_png", "DefaultWhite_r_panel_png", "DefaultWhite_l_panel_png", "DefaultWhite_panel_png", "DefaultWhite_panel_png_8", "transparent", "transparent_10", "DefaultWhite_interior_png", "DefaultWhite_interior_png_12", "transparent_13", "DefaultWhite_interior_png_14", "DefaultWhite_interior_png_15", "transparent_16", "DefaultWhite_weapons_png", "DefaultWhite_weapons_png_18", "DefaultWhite_weapons_png_19", "DefaultWhite_weapons_png_20", "DefaultWhite_weapons_png_21", "DefaultWhite_weapons_png_22", "DefaultWhite_exhaust_png", "DefaultWhite_exhaust_png_24", "DefaultWhite_exhaust_png_25", "DefaultWhite_exhaust_png_26", "DefaultWhite_exhaust_png_27", "DefaultWhite_exhaust_png_28", "DefaultWhite_exhaust_png_29", "DefaultWhite_exhaust_png_30", "DefaultWhite_exhaust_png_31", "DefaultWhite_exhaust_png_32", "DefaultWhite_exhaust_png_33", "DefaultWhite_exhaust_png_34", "DefaultWhite_exhaust_png_35", "DefaultWhite_exhaust_png_36", "DefaultWhite_exhaust_png_37", "DefaultWhite_exhaust_png_38", "DefaultWhite_exhaust_png_39", "DefaultWhite_exhaust_png_40", "DefaultWhite_exhaust_png_41", "DefaultWhite_exhaust_png_42", "DefaultWhite_exhaust_png_43", "DefaultWhite_exhaust_png_44", "DefaultWhite_exhaust_png_45", "DefaultWhite_exhaust_png_46", "DefaultWhite_exhaust_png_47", "DefaultWhite_exhaust_png_48", "DefaultWhite_exhaust_png_49", "DefaultWhite_exhaust_png_50", "DefaultWhite_exhaust_png_51", "DefaultWhite_exhaust_png_52", "DefaultWhite_texture_png", "DefaultWhite_texture_png_54", "DefaultWhite_texture_png_55", "DefaultWhite_texture_png_56", "DefaultWhite_texture_png_57", "transparent_58", "DefaultWhite_texture_png_59", "DefaultWhite_texture_png_60", "DefaultWhite_texture_png_61", "DefaultWhite_texture_png_62", "DefaultWhite_texture_png_63", "DefaultWhite_texture_png_64", "DefaultWhite_texture_png_65", "DefaultWhite_texture_png_66", "DefaultWhite_texture_png_67", "DefaultWhite_texture_png_68", "DefaultWhite_texture_png_69", "TransGreen", "TransRed", "DefaultWhite_texture_png_72", "DefaultWhite_texture_png_73", "DefaultWhite_texture_png_74", "transparent_75", "DefaultWhite_texture_png_76", "DefaultWhite_texture_png_77", "DefaultWhite_texture_png_78", "DefaultWhite_texture_png_79", "DefaultWhite_texture_png_80", "DefaultWhite_texture_png_81", "DefaultWhite_texture_png_82", "DefaultWhite_texture_png_83", "DefaultWhite_texture_png_84", "DefaultWhite_texture_png_85", "DefaultWhite_texture_png_86", "DefaultWhite_texture_png_87", "DefaultWhite_texture_png_88", "pictureMain", "pictureExhaust", "glass", "panel", "controls"]
+            over "DefaultWhite"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/texture.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/DefaultWhite/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/DefaultWhite/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/DefaultWhite/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "DefaultWhite_mfd3_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_canvasTex_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_mfd2_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_mfd1_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_r_panel_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_l_panel_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_panel_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_panel_png_8"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "transparent"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "transparent_10"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_interior_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_interior_png_12"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "transparent_13"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_interior_png_14"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_interior_png_15"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "transparent_16"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_weapons_png"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/weapons.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/DefaultWhite_weapons_png/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/DefaultWhite_weapons_png/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/DefaultWhite_weapons_png/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "DefaultWhite_weapons_png_18"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/weapons.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_18/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_18/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_18/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "DefaultWhite_weapons_png_19"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/weapons.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_19/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_19/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_19/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "DefaultWhite_weapons_png_20"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/weapons.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_20/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_20/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_20/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "DefaultWhite_weapons_png_21"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/weapons.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_21/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_21/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_21/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "DefaultWhite_weapons_png_22"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/weapons.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_22/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_22/surfaceShader.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/DefaultWhite_weapons_png_22/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "DefaultWhite_exhaust_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_24"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_25"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_26"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_27"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_28"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_29"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_30"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_31"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_32"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_33"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_34"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_35"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_36"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_37"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_38"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_39"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_40"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_41"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_42"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_43"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_44"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_45"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_46"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_47"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_48"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_49"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_50"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_51"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_exhaust_png_52"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_54"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_55"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_56"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_57"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "transparent_58"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_59"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_60"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_61"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_62"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_63"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_64"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_65"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_66"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_67"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_68"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_69"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "TransGreen"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "TransRed"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_72"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_73"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_74"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "transparent_75"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_76"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_77"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_78"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_79"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_80"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_81"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_82"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_83"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_84"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_85"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_86"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_87"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            over "DefaultWhite_texture_png_88"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            def Material "pictureMain"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+                prepend token outputs:surface.connect = </Root/gripen/Materials/pictureMain/UsdPreviewSurface.outputs:surface>
+
+                def Shader "UsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.18, 0.18, 0.18)
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/pictureMain/diffuseColor.outputs:rgb>
+                    float inputs:metallic = 1
+                    float inputs:roughness = 0.8
+                    token outputs:surface
+                }
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/texture.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/pictureMain/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/pictureMain/UsdPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+            }
+
+            def Material "pictureExhaust"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+                prepend token outputs:surface.connect = </Root/gripen/Materials/pictureExhaust/UsdPreviewSurface.outputs:surface>
+
+                def Shader "UsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.18, 0.18, 0.18)
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/pictureExhaust/diffuseColor.outputs:rgb>
+                    float inputs:metallic = 0.9
+                    float inputs:roughness = 0.6
+                    token outputs:surface
+                }
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/exhaust.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/pictureExhaust/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/pictureExhaust/UsdPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+            }
+
+            def Material "glass"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+                prepend token outputs:surface.connect = </Root/gripen/Materials/glass/UsdPreviewSurface.outputs:surface>
+
+                def Shader "UsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    float inputs:opacity = 0.3
+                    token outputs:surface
+                }
+            }
+
+            def Material "panel"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+                prepend token outputs:surface.connect = </Root/gripen/Materials/panel/UsdPreviewSurface.outputs:surface>
+
+                def Shader "UsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.18, 0.18, 0.18)
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/panel/diffuseColor.outputs:rgb>
+                    token outputs:surface
+                }
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/l-panel.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/panel/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/panel/UsdPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+            }
+
+            def Material "controls"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+                prepend token outputs:surface.connect = </Root/gripen/Materials/controls/UsdPreviewSurface.outputs:surface>
+
+                def Shader "UsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.18, 0.18, 0.18)
+                    color3f inputs:diffuseColor.connect = </Root/gripen/Materials/controls/diffuseColor.outputs:rgb>
+                    token outputs:surface
+                }
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @Gripen/textures/mfd1.png@
+                    float2 inputs:st.connect = </Root/gripen/Materials/controls/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/gripen/Materials/controls/UsdPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+            }
+        }
+
+        over "Geom"
+        {
+            over "_DefaultWhite"
+            {
+                over "DefaultWhite_meshGroup"
+                {
+                }
+
+                over "DefaultWhite_mfd3_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_canvasTex_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/controls> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_mfd2_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/controls> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_mfd1_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/controls> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_r_panel_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_l_panel_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_panel_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_panel_png_8_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "transparent_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/controls> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "transparent_10_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/controls> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_interior_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_interior_png_12_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "transparent_13_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_interior_png_14_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_interior_png_15_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/panel> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "transparent_16_meshGroup"
+                {
+                }
+
+                over "DefaultWhite_weapons_png_meshGroup"
+                {
+                }
+
+                over "DefaultWhite_texture_png_76_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_77_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_78_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_79_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_80_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_81_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_82_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_83_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_84_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_85_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_86_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_87_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_88_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_72_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_73_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_74_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_59_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_60_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_61_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_62_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_63_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_64_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_65_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_66_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_67_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_68_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_69_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_54_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_55_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_56_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_texture_png_57_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureMain> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_24_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_25_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_26_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_27_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_28_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_29_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_30_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_31_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_32_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_33_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_34_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_35_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_36_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_37_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_38_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_39_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_40_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_41_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_42_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_43_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_44_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_45_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_46_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_47_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_48_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_49_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_50_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_51_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_exhaust_png_52_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/pictureExhaust> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "transparent_75_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/glass> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "TransGreen_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/TransGreen> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "TransRed_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/TransRed> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+
+                over "DefaultWhite_weapons_png_18_meshGroup"
+                {
+                }
+
+                over "DefaultWhite_weapons_png_19_meshGroup"
+                {
+                }
+
+                over "DefaultWhite_weapons_png_20_meshGroup"
+                {
+                }
+
+                over "DefaultWhite_weapons_png_21_meshGroup"
+                {
+                }
+
+                over "DefaultWhite_weapons_png_22_meshGroup"
+                {
+                }
+
+                over "transparent_58_meshGroup" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </Root/gripen/Materials/glass> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+            }
+        }
+    }
+}
+

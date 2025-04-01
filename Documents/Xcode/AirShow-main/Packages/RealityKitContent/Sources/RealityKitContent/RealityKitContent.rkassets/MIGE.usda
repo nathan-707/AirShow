@@ -1,0 +1,135 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "MIGE" (
+        active = true
+        prepend references = @mige8/MIGE.usdz@
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.95303226, 0.95303226, 0.95303226)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "Wing"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @mige8/fuselage.png@
+                    float2 inputs:st.connect = </Root/MIGE/Materials/Wing/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/MIGE/Materials/Wing/WingPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "WingPreviewSurface"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/MIGE/Materials/Wing/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "Interior"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @mige8/cabina.png@
+                    float2 inputs:st.connect = </Root/MIGE/Materials/Interior/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/MIGE/Materials/Interior/InteriorPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "InteriorPreviewSurface"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/MIGE/Materials/Interior/diffuseColor.outputs:rgb>
+                }
+            }
+
+            over "Glass"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @mige8/GLASS.png@
+                    float2 inputs:st.connect = </Root/MIGE/Materials/Glass/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/MIGE/Materials/Glass/GlassPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "GlassPreviewSurface"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/MIGE/Materials/Glass/diffuseColor.outputs:rgb>
+                    float inputs:opacity = 0.3
+                }
+            }
+
+            over "Body"
+            {
+                token inputs:frame:stPrimvarName = "st"
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                def Shader "diffuseColor"
+                {
+                    uniform token info:id = "UsdUVTexture"
+                    asset inputs:file = @mige8/fuselage.png@
+                    float2 inputs:st.connect = </Root/MIGE/Materials/Body/diffuseColor/TexCoordReader.outputs:result>
+                    color3f outputs:rgb
+
+                    def Shader "TexCoordReader"
+                    {
+                        uniform token info:id = "UsdPrimvarReader_float2"
+                        token inputs:varname.connect = </Root/MIGE/Materials/Body/BodyPreviewSurface.inputs:frame:stPrimvarName>
+                        float2 outputs:result
+                    }
+                }
+
+                over "BodyPreviewSurface"
+                {
+                    color3f inputs:diffuseColor.connect = </Root/MIGE/Materials/Body/diffuseColor.outputs:rgb>
+                }
+            }
+        }
+    }
+}
+

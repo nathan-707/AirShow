@@ -354,7 +354,7 @@ func printAircraftStatus(status: status) -> String {
     case .experimental:
         return "EXPERIMENTAL"
     case .cancelled:
-        return "CANCELLED"
+        return "CANCELED"
     }
 }
 

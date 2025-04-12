@@ -11,9 +11,6 @@ import RealityKitContent
 
 
 struct AircraftVolume: View {
-    // hello.
-    
-
     @EnvironmentObject private var viewModel: theViewModel
     
     @EnvironmentObject private var airshowModel: theAirShowModel

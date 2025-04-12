@@ -22,6 +22,7 @@ enum Views {
 class ClockSessionManager: NSObject, ObservableObject {
     
     // MARK: - clock info
+    @Published var wholeRoom = false
     @Published var clock_time_hour: Int = 0
     @Published var clock_time_min: Int = 0
     @Published var clock_weekDay: Int = 0
@@ -72,9 +73,7 @@ class ClockSessionManager: NSObject, ObservableObject {
     
     @Published var tempClockColor: CGColor = CGColor(red: 0, green: 0, blue: 0, alpha: 0)
     
-    
-    
-    @Published var clock_weather = 0
+    @Published var clock_weather: WeatherLight = .CLEAR_DAY
     
     func syncState(update: ClockInfo){
         print("synced clock info")
@@ -90,8 +89,7 @@ class ClockSessionManager: NSObject, ObservableObject {
         clock_DOM = update.DOM
         clock_month = update.month
         
-        clock_weather = update.weather
-        
+        clock_weather = WeatherLight.from(update.weather) ?? .CLEAR_DAY
         
         print(clock_time_min)
         print(clock_time_hour)

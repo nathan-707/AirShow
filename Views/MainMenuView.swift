@@ -210,7 +210,6 @@ struct MainMenuView: View {
             else {
                 
                 VStack{
-                    
                     Button {
                         showPurchaseScreen = true
                     } label: {

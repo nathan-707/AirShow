@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
+#if os(visionOS)
 
 struct CustomAirshowView: View {
-    
     @Environment(\.openImmersiveSpace) private var openImmersiveSpace
     
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     @EnvironmentObject private var airshowModel: theAirShowModel
     @EnvironmentObject private var storeModel: Store
     
@@ -23,6 +23,7 @@ struct CustomAirshowView: View {
         
         VStack{
             Text("SELECT LINE UP").font(.extraLargeTitle2).padding()
+
             
             if selectedAircrafts == 0 {
                 Text("\(selectedAircrafts) selected").foregroundStyle(.red).font(.headline).bold()
@@ -96,6 +97,7 @@ struct CustomAirshowView: View {
                             
                         } else {
                             Text("- - - - -").padding().foregroundColor(.red).font(.extraLargeTitle)
+
                         }
                     }
                 }.padding()
@@ -114,6 +116,7 @@ struct CustomAirshowView: View {
                     Text("Classic").tag(ShowType.classic)
                     Text("Chaotic").tag(ShowType.chaos)
                 }
+                
                 
                 PickEnvironment().padding()
 
@@ -160,6 +163,7 @@ struct CustomAirshowView: View {
                                 break
                             }
                         }
+               
                         
                     } label: {
                         Text("START SHOW").foregroundStyle(.green).font(.title).bold().padding()
@@ -189,3 +193,4 @@ struct CustomAirshowView: View {
 #Preview {
     CustomAirshowView()
 }
+#endif

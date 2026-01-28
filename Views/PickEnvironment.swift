@@ -7,16 +7,23 @@
 
 import SwiftUI
 
+
+#if os(visionOS)
+
+
 struct PickEnvironment: View {
     
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     var body: some View {
         
         HStack{
             Text("Environment:").font(.largeTitle).bold()
             
             Picker("", selection: $viewModel.selectedEnvironment){
-                Text("Mixed Reality").tag(FullSpaceSetting.none)
+                Text("System Environment").tag(FullSpaceSetting.none)
+                
+//                Text("System Environment").tag(FullSpaceSetting.systemEnvironment)
+                
                 Text("Hills (Daytime)").tag(FullSpaceSetting.daytime)
                 Text("Ocean (Daytime)").tag(FullSpaceSetting.ocean)
 //                Text("City (Daytime)").tag(FullSpaceSetting.test4)
@@ -25,7 +32,7 @@ struct PickEnvironment: View {
                 
                 // Text("Trees (Dusk)").tag(FullSpaceSetting.test2)
                 
-                Text("Crop Field (Dusk)").tag(FullSpaceSetting.test5)
+//                Text("Crop Field (Dusk)").tag(FullSpaceSetting.test5)
                 Text("Field (Night)").tag(FullSpaceSetting.starsNight)
             }.onChange(of: viewModel.selectedEnvironment) { oldValue, newValue in
                 if newValue == .none {
@@ -41,3 +48,5 @@ struct PickEnvironment: View {
 #Preview {
     PickEnvironment()
 }
+
+#endif

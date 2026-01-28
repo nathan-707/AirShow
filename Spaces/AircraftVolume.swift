@@ -9,9 +9,9 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-
+#if os(visionOS)
 struct AircraftVolume: View {
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     
     @EnvironmentObject private var airshowModel: theAirShowModel
     
@@ -34,3 +34,5 @@ struct AircraftVolume: View {
 #Preview {
     AircraftVolume()
 }
+
+#endif

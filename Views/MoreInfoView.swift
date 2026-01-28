@@ -7,15 +7,16 @@
 
 import SwiftUI
 
+
 struct MoreInfoView: View {
     
     @EnvironmentObject private var airshowModel: theAirShowModel
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     
     var body: some View {
         VStack{
-            ScrollView(.horizontal){
-            HStack{
+        ScrollView(.horizontal){
+        HStack{
                 
                 HStack{
                     Text("MANUFACTURER: ").font(.title).bold()

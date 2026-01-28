@@ -12,7 +12,7 @@ import RealityKitContent
 
 struct AirshowView: View {
     @Environment(\.scenePhase) private var scenePhase
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     @EnvironmentObject private var airshowModel: theAirShowModel
     @State var animationSub: EventSubscription?
     @State var timer: Timer?
@@ -32,6 +32,8 @@ struct AirshowView: View {
             guard let animationScene = try? await Entity(named: "Animation", in: realityKitContentBundle) else {
                 viewModel.currentView = .mainMenu
                 return}
+            
+            
             loadAnimations(scene: animationScene)
             // assign resources from reality composer to their varibles to be cloned.
             graySmoke = ParticleScene.findEntity(named: "smokeTrail")!

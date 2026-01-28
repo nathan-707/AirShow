@@ -15,7 +15,7 @@ enum planeBehavior {
 }
 
 enum views {
-    case mainMenu, adjustAircraftView, customAirshowView, adjustCustomShowView, storeView
+    case mainMenu, adjustAircraftView, customAirshowView, adjustCustomShowView, storeView, ios_customAirshowView, ios_AirShowView
 }
 
 enum environments {
@@ -30,7 +30,7 @@ enum units {
     case milePerHour, kilometersPerHour
 }
 
-class theViewModel: ObservableObject {
+class ViewModel: ObservableObject {
     @Published var userUnits: units = .milePerHour
     @Published var selectedEnvironment: FullSpaceSetting = .none // default user environment
     @Published var speedInMPH: Float = 400                          // default user speed when viewing
@@ -42,7 +42,9 @@ class theViewModel: ObservableObject {
     @Published var isLoadingPlanes = true
     @Published var userSelectedStyle: environments = .progressiveSpace
     @Published var currentView: views = .mainMenu
+    #if os(visionOS)
     @Published var immersionStyle: ImmersionStyle = .progressive
+    #endif
     @Published var hideLandingGear = false
     @Published var updateSpeed: Bool = true
     @Published var showRoom: Bool = false
@@ -57,11 +59,15 @@ class theViewModel: ObservableObject {
     
     
     init(){
+        #if os(visionOS)
         if self.selectedEnvironment == .none {
             self.immersionStyle = .mixed
         } else {
             self.immersionStyle = .progressive
         }
+        #endif
+        
+       
     }
 }
 

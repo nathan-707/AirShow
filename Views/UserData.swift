@@ -16,8 +16,6 @@ import SwiftData
 // default settings:
 let defaultSettings = DataModel(userUnitsMPH: true)
 
-
-
 @Model
 class DataModel {
     

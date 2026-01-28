@@ -9,13 +9,11 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-
-struct customAirshowSpace: View {
+#if os(iOS)
+struct ios_CustomAirshowView: View {
     
     @State var timer: Timer?
-    
-    
-    @EnvironmentObject private var viewModel: ViewModel
+    @EnvironmentObject private var viewModel: theViewModel
     @EnvironmentObject private var airshowModel: theAirShowModel
     @State var loaded = false
     
@@ -51,6 +49,8 @@ struct customAirshowSpace: View {
             origin_Aircraft = Entity()
             
             content.add(origin_Aircraft)
+            
+            content.camera = .virtual
                         
             
             airshowModel.soundDelay = true
@@ -84,11 +84,8 @@ struct customAirshowSpace: View {
             } else {
                 airshowModel.startClassicAirshow()
             }
-            
-            
-            
     
-//             john
+            
             timer = Timer.scheduledTimer(withTimeInterval: 1.0 / 30, repeats: true) {  _ in
                 if airshowModel.showType == .classic { // right now only need to check frames every second for the classic type.
                     classicFrameUpdate()
@@ -99,9 +96,6 @@ struct customAirshowSpace: View {
                 }
             }
             
-            
-            
-            
         }
         
         .onDisappear {
@@ -110,7 +104,12 @@ struct customAirshowSpace: View {
             timer?.invalidate()
             timer = nil
         }
-        
+        .gesture(TapGesture().targetedToAnyEntity().onEnded({ tap in // BOOM
+            // handle tap gestures here if the game is not paused only.
+            spankCounter += 1
+            print("spank \(spankCounter)")
+            
+        }))
     }
     
 
@@ -121,7 +120,7 @@ struct customAirshowSpace: View {
     func classicFrameUpdate(){
         
         
-        // spawn next plane logic while in classic show mode. 
+        
         if !viewModel.isLoadingPlanes{
             for aniamtionRoot in origin_Aircraft.children {
                 if let group = aniamtionRoot.children.first {
@@ -153,39 +152,8 @@ struct customAirshowSpace: View {
 
 
 
-func ignoreAllCurrentAircrafts(){
-    
-    for anchor in origin_Aircraft.children {
-        if let origin = anchor.children.first {
-            if let aircraft = origin.children.first{
-                
-                if let currentAircraftComponent = aircraft.components[AircraftComponent.self]{
-                    currentAircraftComponent.ignore = true
-                    aircraft.components.set(currentAircraftComponent)
-                }
-                
-            }
-        }
-    }
-}
 
-var lastCount = 0
 
-func createHitBox() -> ModelEntity {
-    let hitBox = ModelEntity(mesh: .generateSphere(radius: 10), materials: [UnlitMaterial(color: .purple)])
-    hitBox.components.set(InputTargetComponent())
-    
-    hitBox.components.set(CollisionComponent(shapes: [.generateSphere(radius: 10)]))
-    hitBox.components.set(PhysicsBodyComponent(massProperties: .default, material: .default, mode: .kinematic))
-    
-    return hitBox
-}
 
-var numberOfPlanesToLoad = 0
 
-#Preview {
-    customAirshowSpace()
-}
-
-var loadingPlanesGlobal = true
-
+#endif

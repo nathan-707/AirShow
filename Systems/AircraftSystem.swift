@@ -43,12 +43,14 @@ struct AirshowSystem: System {
     
     func playJetPassOverSound(jet: Entity, sound: AudioResource){
         
-        jet.playAudio(sound).gain = -10 // was 15
+        jet.components[SpatialAudioComponent.self]?.reverbLevel = spatialFlyoverReverb
+        jet.playAudio(sound).gain = .zero // was 15
         
         
     }
     
     func update(context: SceneUpdateContext) {
+        
         for aircraft in context.entities(matching: Self.query, updatingSystemWhen: .rendering) {
             guard let component: AircraftComponent = aircraft.components[AircraftComponent.self] else { continue }
             
@@ -83,18 +85,20 @@ struct AirshowSystem: System {
                         playJetPassOverSound(jet: aircraft, sound: allPropPassOver.randomElement()!!)
                         
                     }
-                    
                 }
             }
             
             if aircraft.position(relativeTo: origin_Aircraft).z > 4000 {
                 aircraft.removeFromParent()
+                print("REMOVE")
                 break
             }
             
             if let plane = aircraft.children.first {
                 if plane.position(relativeTo: origin_Aircraft).z > 4000 {
                     plane.parent?.removeFromParent()
+                    print("REMOVE")
+
                 }
             }
         }

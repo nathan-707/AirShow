@@ -8,12 +8,17 @@
 import SwiftUI
 import RealityKit
 
+
+
+
+#if os(visionOS)
+
 var waitforplanes = true
 
 struct AdjustCustomShowView: View {
     
     @Environment(\.dismissImmersiveSpace) private var dismissImmersiveSpace
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     @EnvironmentObject private var airshowModel: theAirShowModel
     @State var superSonic = false
     @State var messegeOver = false
@@ -185,3 +190,4 @@ struct AdjustCustomShowView: View {
 #Preview {
     AdjustCustomShowView()
 }
+#endif

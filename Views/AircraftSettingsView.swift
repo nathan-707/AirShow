@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+#if os(visionOS)
 
 let minSpeed: Float = 20
 
@@ -14,13 +15,12 @@ struct AircraftSettingsView: View {
     
 
     
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     @EnvironmentObject private var airshowModel: theAirShowModel
     @State var superSonic = false
     
     @State var hideControls = false
     @State var topSpeed: Float = minSpeed + 3
-    
     @Environment(\.dismissImmersiveSpace) private var dismissImmersiveSpace
     
     var body: some View {
@@ -114,7 +114,13 @@ struct AircraftSettingsView: View {
                     
                     Button{
                         viewModel.currentView = .mainMenu
+                        
+                        
+#if os(visionOS)
                         Task { await dismissImmersiveSpace() }
+#endif
+                        
+                        
                     } label: {
                         Text("EXIT").padding().bold().foregroundColor(.orange)
                         
@@ -143,7 +149,13 @@ struct AircraftSettingsView: View {
                 
                 Button{
                     viewModel.currentView = .mainMenu
-                    Task { await dismissImmersiveSpace() }
+                    
+                    
+                    #if os(visionOS)
+                    Task { await dismissImmersiveSpace()}
+                    #endif
+                    
+                    
                 } label: {
                     Text("EXIT")
                 }.padding(5)
@@ -179,6 +191,8 @@ struct AircraftSettingsView_Previews: PreviewProvider {
         AircraftSettingsView()
     }
 }
+
+#endif
 
 func convertMPHToMetersPerSecond(miles: Int) -> Float {
     let miles = Float(miles)

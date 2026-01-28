@@ -11,7 +11,7 @@ import StoreKit
 
 struct BuyAllPlanesView: View {
     
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     
     var body: some View {
         

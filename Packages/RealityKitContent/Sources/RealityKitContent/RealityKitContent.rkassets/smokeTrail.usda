@@ -49,7 +49,7 @@ def Xform "Root"
                     float3 acceleration = (0, 0, 0)
                     token animationRepeatMode = "Looping"
                     token billboardMode = "Billboard"
-                    float birthRate = 400
+                    float birthRate = 300
                     float birthRateVariation = 100
                     token blendMode = "Alpha"
                     float colorEvolutionPower = 1

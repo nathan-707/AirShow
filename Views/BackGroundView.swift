@@ -1,9 +1,3 @@
-/*
- See the LICENSE.txt file for this sample’s licensing information.
- 
- Abstract:
- A large sphere that has an image of the night sky on its inner surface.
- */
 
 import SwiftUI
 import RealityKit
@@ -24,7 +18,7 @@ let whatToTest = "test5"
 
 struct BackGroundView: View {
     
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     @State var nameOfResource = ""
     
     @State var radiusOfBackground: Float = 90000

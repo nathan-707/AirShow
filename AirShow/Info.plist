@@ -13,5 +13,7 @@
 		<key>UISceneConfigurations</key>
 		<dict/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow Camera Access</string>
 </dict>
 </plist>

@@ -169,7 +169,8 @@ class theAirShowModel: ObservableObject {
             }
         }
         
-        print(customAnimation.animationEntity.name, " - ", aircraft.name, " - ", aircraft.animationType)
+        print(customAnimation.animationEntity.name, " - ", aircraft.name, " - ", aircraft.animationType, " - origin children count: ", origin_Aircraft.children.count)
+        
         
         var randomY: Float = 0
         var randomX: Float = 0
@@ -202,13 +203,14 @@ class theAirShowModel: ObservableObject {
             let aircraftModel = aircraft.mEntity.clone(recursive: true)
             
             if let aircraftAnchorInAnimation = animationRoot.findEntity(named: "group"){
-                aircraftAnchorInAnimation.addChild(aircraftModel)
-                aircraftAnchorInAnimation.playAnimation(aircraftAnchorInAnimation.availableAnimations.first!, transitionDuration: 0, startsPaused: false).speed = customAnimation.speed
-                setupAircraft(aircraft: aircraftModel, aircraftProperties: aircraft)
-                aircraftModel.components.set(CollisionComponent(shapes: [.generateBox(size: [0.1,0.1,0.1])]))
-                aircraftModel.components.set(PhysicsBodyComponent(massProperties: .default, material: .default, mode: .kinematic))
-                origin_Aircraft.addChild(animationRoot)
                 
+                aircraftAnchorInAnimation.addChild(aircraftModel)
+                
+                aircraftAnchorInAnimation.playAnimation(aircraftAnchorInAnimation.availableAnimations.first!, transitionDuration: 0, startsPaused: false).speed = customAnimation.speed
+                
+                setupAircraft(aircraft: aircraftModel, aircraftProperties: aircraft, addEmitter: true, setupForMayaAnimation: true)
+                
+                origin_Aircraft.addChild(animationRoot)
                 
             } else {
                 print("failed to find group.")
@@ -348,19 +350,23 @@ class theAirShowModel: ObservableObject {
         }
     }
     
-    func setupAircraft(aircraft: Entity, aircraftProperties: Aircraft, addEmitter: Bool = true) {
+    func setupAircraft(aircraft: Entity, aircraftProperties: Aircraft, addEmitter: Bool = true, setupForMayaAnimation: Bool = false) {
         
-        aircraft.components.set(CollisionComponent(shapes: [.generateBox(size: [10,10,10])], isStatic: false))
-        aircraft.components.set(PhysicsBodyComponent(massProperties: .default, material: .default, mode: .kinematic))
-        aircraft.components.set(CollisionComponent(shapes: [.generateBox(size: [10,10,10])], isStatic: false))
-        aircraft.components.set(PhysicsMotionComponent())
+        if setupForMayaAnimation == false {
+            aircraft.components.set(PhysicsBodyComponent(massProperties: .default, material: .default, mode: .kinematic))
+            aircraft.components.set(CollisionComponent(shapes: [.generateBox(size: [0.5,0.5,0.5])], isStatic: false))
+            aircraft.components.set(PhysicsMotionComponent())
+        }
+     
+        
+        
         aircraft.components.set(SpatialAudioComponent())
         aircraft.components.set(AircraftComponent(properties: aircraftProperties, showType: self.showType))
         
         let thermalState = ProcessInfo.processInfo.thermalState
         
         if thermalState == .critical || thermalState == .serious {
-            print("Shit is hot.", thermalState)
+            print("Device is hot.", thermalState)
         } else {
             if addEmitter && thermalState == .nominal {
                 addEmitterToAircraft(emitter: aircraftProperties.emitter)
@@ -395,15 +401,24 @@ class theAirShowModel: ObservableObject {
         
         func addSoundEmitter(sound: sound, aircraft: Entity) {
             
+            
             let audioSource = Entity()
             
             let sound = planesSoundEffect(sound: aircraftProperties.sound)
             
             if aircraftProperties.animationType == .agile_fast_plane{
-                audioSource.components.set(SpatialAudioComponent(gain: .zero, directLevel: .zero, reverbLevel: .zero, directivity: .beam(focus: 0.75)))
-                audioSource.orientation = .init(angle: .pi, axis: [0, 1, 0])
+                audioSource.components.set(SpatialAudioComponent(gain: .zero, directLevel: .zero, reverbLevel: spatialPlaneEngineReverb,
+                                                                 
+//                                                                 directivity: .beam(focus: 0.75)
+                                                                
+                                                                ))
+//                audioSource.orientation = .init(angle: .pi, axis: [0, 1, 0]
+//                
+//                )
+                
+                
             } else {
-                audioSource.components.set(SpatialAudioComponent(gain: .zero, directLevel: .zero, reverbLevel: .zero))
+                audioSource.components.set(SpatialAudioComponent(gain: .zero, directLevel: .zero, reverbLevel: spatialPlaneEngineReverb))
             }
             
             aircraft.addChild(audioSource)
@@ -412,7 +427,7 @@ class theAirShowModel: ObservableObject {
             
             if aircraftProperties.sound == .largePropellerPlaneNoise {
                 let audioSource2 = Entity()
-                audioSource2.components.set(SpatialAudioComponent(gain: .zero, directLevel: .zero, reverbLevel: .zero))
+                audioSource2.components.set(SpatialAudioComponent(gain: .zero, directLevel: .zero, reverbLevel: spatialPlaneEngineReverb))
                 aircraft.addChild(audioSource2)
                 controller2  = audioSource2.prepareAudio(planesSoundEffect(sound: .largePlaneNoise))
             }
@@ -498,26 +513,26 @@ class theAirShowModel: ObservableObject {
     }
     
     
-    func makeAnimation(startingPosition: SIMD3<Float>){
-        
-        let planeToAnimate = selectedAircraftModel.clone(recursive: true)
-        let transform = startingPosition
-        let transform2 = startingPosition + 1
-        let animationDefinition1 = FromToByAnimation(to: transform, duration: 1.0, bindTarget: .transform)
-        let animationDefinition2 = FromToByAnimation(to: transform2, duration: 1.0, bindTarget: .transform)
-        
-        // Create a Blend Tree Animation by blending the two animations
-        let blendTreeDefinition = BlendTreeAnimation<Transform>(
-            BlendTreeBlendNode(sources: [
-                BlendTreeSourceNode(source: animationDefinition1, weight: .value(0.75)),
-                BlendTreeSourceNode(source: animationDefinition2, weight: .value(0.25))
-            ])
-        )
-        
-        let animationViewDefinition = AnimationView(source: blendTreeDefinition, delay: 5, speed: 0.5)
-        let animationResource = try! AnimationResource.generate(with: animationViewDefinition)
-        planeToAnimate.playAnimation(animationResource)
-    }
+//    func makeAnimation(startingPosition: SIMD3<Float>){
+//        
+//        let planeToAnimate = selectedAircraftModel.clone(recursive: true)
+//        let transform = startingPosition
+//        let transform2 = startingPosition + 1
+//        let animationDefinition1 = FromToByAnimation(to: transform, duration: 1.0, bindTarget: .transform)
+//        let animationDefinition2 = FromToByAnimation(to: transform2, duration: 1.0, bindTarget: .transform)
+//        
+//        // Create a Blend Tree Animation by blending the two animations
+//        let blendTreeDefinition = BlendTreeAnimation<Transform>(
+//            BlendTreeBlendNode(sources: [
+//                BlendTreeSourceNode(source: animationDefinition1, weight: .value(0.75)),
+//                BlendTreeSourceNode(source: animationDefinition2, weight: .value(0.25))
+//            ])
+//        )
+//        
+//        let animationViewDefinition = AnimationView(source: blendTreeDefinition, delay: 5, speed: 0.5)
+//        let animationResource = try! AnimationResource.generate(with: animationViewDefinition)
+//        planeToAnimate.playAnimation(animationResource)
+//    }
     
     func deinitShow(){
         self.chaoticShow = false

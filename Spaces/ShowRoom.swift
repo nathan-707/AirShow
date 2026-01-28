@@ -9,6 +9,7 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
+#if os(visionOS)
 
 struct ShowRoom: View {
     
@@ -20,11 +21,11 @@ struct ShowRoom: View {
     @State var planeModelArray = [Entity()]
     @State var planeToLand = Entity()
     @State var landed: Bool = false
-    @EnvironmentObject private var viewModel: theViewModel
+    @EnvironmentObject private var viewModel: ViewModel
     
     var body: some View {
         
-        if viewModel.showRoomIsLoaded == true{
+        if viewModel.showRoomIsLoaded == true {
             BackGroundView()
         }
         
@@ -118,3 +119,4 @@ struct ShowRoom: View {
     ShowRoom()
 }
 
+#endif

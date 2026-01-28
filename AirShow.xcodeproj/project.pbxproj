@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		820D25D82B7CAE2F00E6613E /* AdjustCustomShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D25D72B7CAE2F00E6613E /* AdjustCustomShowView.swift */; };
+		8213B2502EAE010600A51F74 /* ios_MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213B24F2EAE010600A51F74 /* ios_MainMenu.swift */; };
+		8213B2812EAE09E900A51F74 /* ios_adjustPlaneSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213B2802EAE09E900A51F74 /* ios_adjustPlaneSettingsView.swift */; };
 		822CD13E2CE037B4005274DC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822CD13D2CE037B4005274DC /* UserData.swift */; };
 		82385D9D2B7594190001F537 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82385D9C2B7594190001F537 /* MainMenuView.swift */; };
 		82385DA12B75A30A0001F537 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82385DA02B75A30A0001F537 /* Entities.swift */; };
@@ -57,9 +59,10 @@
 		82C1F0512B75E1D3008EF4C2 /* AirShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1F0502B75E1D3008EF4C2 /* AirShowModel.swift */; };
 		82CE705D2B9328A800167B92 /* BuyAllPlanesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CE705C2B9328A800167B92 /* BuyAllPlanesView.swift */; };
 		82CEB6402B7B5BD400B2A201 /* CustomAirshowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CEB63F2B7B5BD400B2A201 /* CustomAirshowView.swift */; };
-		82D28E262B93267400D642A6 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D28E252B93267400D642A6 /* StoreView.swift */; };
 		82DA67E12B81E83000B7DFD0 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DA67E02B81E83000B7DFD0 /* Animations.swift */; };
 		82E08BC72BC9CDCA0057B988 /* EntryCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E08BC62BC9CDCA0057B988 /* EntryCapsule.swift */; };
+		82E1BDD62EAE1870001883E1 /* ios_AirShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1BDD52EAE1870001883E1 /* ios_AirShowView.swift */; };
+		82E1BDD82EAE18C6001883E1 /* ios_CustomAirshowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E1BDD72EAE18C6001883E1 /* ios_CustomAirshowView.swift */; };
 		82FC0E232BBB648C00656433 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC0E222BBB648C00656433 /* MoreInfoView.swift */; };
 		82FC0E372BBD325100656433 /* PickEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC0E362BBD325100656433 /* PickEnvironment.swift */; };
 /* End PBXBuildFile section */
@@ -76,6 +79,8 @@
 
 /* Begin PBXFileReference section */
 		820D25D72B7CAE2F00E6613E /* AdjustCustomShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustCustomShowView.swift; sourceTree = "<group>"; };
+		8213B24F2EAE010600A51F74 /* ios_MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_MainMenu.swift; sourceTree = "<group>"; };
+		8213B2802EAE09E900A51F74 /* ios_adjustPlaneSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_adjustPlaneSettingsView.swift; sourceTree = "<group>"; };
 		822CD13D2CE037B4005274DC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		82385D9C2B7594190001F537 /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		82385DA02B75A30A0001F537 /* Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
@@ -128,10 +133,11 @@
 		82C1F0502B75E1D3008EF4C2 /* AirShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirShowModel.swift; sourceTree = "<group>"; };
 		82CE705C2B9328A800167B92 /* BuyAllPlanesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAllPlanesView.swift; sourceTree = "<group>"; };
 		82CEB63F2B7B5BD400B2A201 /* CustomAirshowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAirshowView.swift; sourceTree = "<group>"; };
-		82D28E252B93267400D642A6 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		82D7F01F2B95D01700C0F1CF /* airshowStoreKitTest.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = airshowStoreKitTest.storekit; sourceTree = "<group>"; };
 		82DA67E02B81E83000B7DFD0 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		82E08BC62BC9CDCA0057B988 /* EntryCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCapsule.swift; sourceTree = "<group>"; };
+		82E1BDD52EAE1870001883E1 /* ios_AirShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_AirShowView.swift; sourceTree = "<group>"; };
+		82E1BDD72EAE18C6001883E1 /* ios_CustomAirshowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_CustomAirshowView.swift; sourceTree = "<group>"; };
 		82FC0E222BBB648C00656433 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
 		82FC0E362BBD325100656433 /* PickEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +161,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8213B24B2EAE007500A51F74 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				8213B27D2EAE031100A51F74 /* Spaces */,
+				8213B24C2EAE007C00A51F74 /* Views */,
+			);
+			path = IOS;
+			sourceTree = "<group>";
+		};
+		8213B24C2EAE007C00A51F74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8213B24F2EAE010600A51F74 /* ios_MainMenu.swift */,
+				8213B2802EAE09E900A51F74 /* ios_adjustPlaneSettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8213B27D2EAE031100A51F74 /* Spaces */ = {
+			isa = PBXGroup;
+			children = (
+				82E1BDD52EAE1870001883E1 /* ios_AirShowView.swift */,
+				82E1BDD72EAE18C6001883E1 /* ios_CustomAirshowView.swift */,
+			);
+			path = Spaces;
+			sourceTree = "<group>";
+		};
 		82385D9A2B7593840001F537 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +198,6 @@
 				82CE705C2B9328A800167B92 /* BuyAllPlanesView.swift */,
 				82CEB63F2B7B5BD400B2A201 /* CustomAirshowView.swift */,
 				820D25D72B7CAE2F00E6613E /* AdjustCustomShowView.swift */,
-				82D28E252B93267400D642A6 /* StoreView.swift */,
 				829FF3A02A85647800E6970B /* ContentView.swift */,
 				82BFAEB22B75F84B00CD4355 /* AircraftSettingsView.swift */,
 				82385D9C2B7594190001F537 /* MainMenuView.swift */,
@@ -219,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				828E03D92B77A7BD0029FA05 /* ThingsToDo.swift */,
+				8213B24B2EAE007500A51F74 /* IOS */,
 				82D7F01F2B95D01700C0F1CF /* airshowStoreKitTest.storekit */,
 				82E08BC82BC9EF830057B988 /* Systems */,
 				82CEB6412B7B5C3800B2A201 /* Files */,
@@ -357,7 +390,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					829FF3962A85647800E6970B = {
 						CreatedOnToolsVersion = 15.0;
@@ -439,15 +472,18 @@
 				82385DA12B75A30A0001F537 /* Entities.swift in Sources */,
 				829FF3A12A85647800E6970B /* ContentView.swift in Sources */,
 				820D25D82B7CAE2F00E6613E /* AdjustCustomShowView.swift in Sources */,
+				82E1BDD82EAE18C6001883E1 /* ios_CustomAirshowView.swift in Sources */,
 				82FC0E372BBD325100656433 /* PickEnvironment.swift in Sources */,
 				82385D9D2B7594190001F537 /* MainMenuView.swift in Sources */,
 				82DA67E12B81E83000B7DFD0 /* Animations.swift in Sources */,
+				8213B2812EAE09E900A51F74 /* ios_adjustPlaneSettingsView.swift in Sources */,
 				829FF39F2A85647800E6970B /* AirShowApp.swift in Sources */,
 				82FC0E232BBB648C00656433 /* MoreInfoView.swift in Sources */,
 				82BDBEFE2BAE5B8100F9A0C4 /* AircraftVolume.swift in Sources */,
 				82B761E22B7BF1F4001FB407 /* customAirshowSpace.swift in Sources */,
 				828E03DA2B77A7BD0029FA05 /* ThingsToDo.swift in Sources */,
 				829FF3BC2A8568A100E6970B /* ViewModel.swift in Sources */,
+				82E1BDD62EAE1870001883E1 /* ios_AirShowView.swift in Sources */,
 				828E03EF2B77ABCA0029FA05 /* Audio.swift in Sources */,
 				82E08BC72BC9CDCA0057B988 /* EntryCapsule.swift in Sources */,
 				82C1F0512B75E1D3008EF4C2 /* AirShowModel.swift in Sources */,
@@ -460,7 +496,7 @@
 				82CE705D2B9328A800167B92 /* BuyAllPlanesView.swift in Sources */,
 				82BFAEB32B75F84B00CD4355 /* AircraftSettingsView.swift in Sources */,
 				82CEB6402B7B5BD400B2A201 /* CustomAirshowView.swift in Sources */,
-				82D28E262B93267400D642A6 /* StoreView.swift in Sources */,
+				8213B2502EAE010600A51F74 /* ios_MainMenu.swift in Sources */,
 				82B77AD52B75FD9B008E9DDB /* Parameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +555,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DTFF4HTNZR;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -541,9 +578,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = xros;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				XROS_DEPLOYMENT_TARGET = 1.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
@@ -582,6 +620,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DTFF4HTNZR;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -597,9 +636,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = xros;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
-				XROS_DEPLOYMENT_TARGET = 1.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
@@ -611,7 +651,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirShow/Preview Content\"";
-				DEVELOPMENT_TEAM = DTFF4HTNZR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AirShow/Info.plist;
@@ -619,14 +658,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1;
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lc.airshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 1.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
@@ -638,7 +678,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AirShow/Preview Content\"";
-				DEVELOPMENT_TEAM = DTFF4HTNZR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AirShow/Info.plist;
@@ -646,25 +685,24 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1;
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lc.airshow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 1.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
 		829FF3B72A85647A00E6970B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DTFF4HTNZR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nathaneriksen.AirShowTests;
@@ -681,11 +719,9 @@
 		829FF3B82A85647A00E6970B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DTFF4HTNZR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nathaneriksen.AirShowTests;

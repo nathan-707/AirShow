@@ -10,7 +10,7 @@
  
  DONE ::::::::::::::::::::::::::::::::
  
- - redo large plane noise to not have the gta sound
+ - redo large plane noise to not have the same sound
 
  - fix black hawk
 
